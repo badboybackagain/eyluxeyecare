@@ -48,14 +48,14 @@ export default function LensesPage() {
                   <span className="text-[10px] uppercase tracking-[0.25em] text-gold/80">{c.tag}</span>
                 </div>
                 <h3 className="mt-5 font-display text-xl tracking-tight">{c.title}</h3>
-                <p className="mt-3 text-sm text-white/55 leading-relaxed">{c.desc}</p>
+                <p className="mt-3 text-sm text-ink/70 leading-relaxed">{c.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading align="center" eyebrow="Partner brands" title={<>Three legendary houses, <span className="gold-text">one boutique.</span></>} />
 
@@ -63,7 +63,7 @@ export default function LensesPage() {
             {brands.map((b) => (
               <div key={b.name} className="rounded-3xl glass-strong p-10 text-center hover:border-gold/40 transition">
                 <p className="font-display text-5xl gold-text">{b.name}</p>
-                <p className="mt-6 text-sm text-white/60 leading-relaxed">{b.tagline}</p>
+                <p className="mt-6 text-sm text-ink/70 leading-relaxed">{b.tagline}</p>
               </div>
             ))}
           </div>

@@ -14,14 +14,14 @@ const items = [
 
 export default function WhyChoose() {
   return (
-    <section className="relative py-28 md:py-40 border-y border-white/5" data-testid="home-why-choose">
+    <section className="relative py-28 md:py-40 border-y border-ink/10" data-testid="home-why-choose">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeading
           eyebrow="Why Eylux"
           title={<>Six reasons families across Pune <span className="gold-text">trust their vision</span> to us.</>}
         />
 
-        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 rounded-3xl overflow-hidden">
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-ink/[0.04] rounded-3xl overflow-hidden">
           {items.map((it, i) => {
             const Icon = it.icon;
             return (
@@ -31,11 +31,11 @@ export default function WhyChoose() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.6, delay: (i % 3) * 0.08 }}
-                className="bg-bg-primary p-8 md:p-10 hover:bg-white/[0.02] transition-colors duration-500 group"
+                className="bg-bg-primary p-8 md:p-10 hover:bg-ink/[0.03] transition-colors duration-500 group"
               >
                 <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
                 <h3 className="mt-6 font-display text-xl md:text-2xl tracking-tight">{it.title}</h3>
-                <p className="mt-3 text-sm text-white/55 leading-relaxed">{it.desc}</p>
+                <p className="mt-3 text-sm text-ink/70 leading-relaxed">{it.desc}</p>
               </motion.div>
             );
           })}

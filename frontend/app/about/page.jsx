@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div className="lg:col-span-5">
             <SectionHeading eyebrow="Our philosophy" title={<>Eyewear is <span className="gold-text">personal</span>, never transactional.</>} />
           </div>
-          <div className="lg:col-span-7 space-y-6 text-white/65 text-base md:text-lg leading-relaxed">
+          <div className="lg:col-span-7 space-y-6 text-ink/75 text-base md:text-lg leading-relaxed">
             <p>We believe a pair of glasses is the most intimate accessory you wear — closer to you than any other object, all day, every day. So we treat them with the seriousness they deserve.</p>
             <p>Every Eylux consultation begins with a conversation. About your work, your screens, your hobbies, the way light falls on your face. Only then do we measure, advise and craft.</p>
             <p>The result is eyewear that feels like it belongs to you — clinically precise, fashion-forward and quietly luxurious.</p>
@@ -40,7 +40,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading eyebrow="Our journey" title={<>Fifteen years of <span className="gold-text">measured progress.</span></>} />
           <div className="mt-16 relative">
@@ -53,7 +53,7 @@ export default function AboutPage() {
                   </div>
                   <div className="pl-12 md:pl-0 md:[direction:ltr]">
                     <h3 className="font-display text-2xl">{m.title}</h3>
-                    <p className="mt-3 text-white/60 leading-relaxed">{m.text}</p>
+                    <p className="mt-3 text-ink/70 leading-relaxed">{m.text}</p>
                   </div>
                   <span className="absolute left-4 md:left-1/2 top-3 -translate-x-1/2 h-3 w-3 rounded-full bg-gold ring-4 ring-bg-primary" />
                 </div>

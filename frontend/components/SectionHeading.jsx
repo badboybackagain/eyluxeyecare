@@ -20,7 +20,7 @@ export default function SectionHeading({ eyebrow, title, subtitle, align = 'left
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-80px' }}
         transition={{ duration: 0.8, delay: 0.05 }}
-        className={`mt-4 font-display tracking-tight ${light ? 'text-white' : 'text-white'} text-4xl sm:text-5xl lg:text-6xl leading-[1.05]`}
+        className={`mt-4 font-display tracking-tight ${light ? 'text-ink' : 'text-ink'} text-4xl sm:text-5xl lg:text-6xl leading-[1.05]`}
       >
         {title}
       </motion.h2>
@@ -30,7 +30,7 @@ export default function SectionHeading({ eyebrow, title, subtitle, align = 'left
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="mt-6 text-white/60 text-base md:text-lg leading-relaxed"
+          className="mt-6 text-ink/70 text-base md:text-lg leading-relaxed"
         >
           {subtitle}
         </motion.p>

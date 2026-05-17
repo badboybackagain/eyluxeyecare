@@ -54,12 +54,12 @@ export default function FramesPage() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6 text-center">
           <SectionHeading align="center" eyebrow="The brand wall" title={<>Houses we <span className="gold-text">proudly carry.</span></>} />
           <div className="mt-12 flex flex-wrap justify-center gap-3">
             {houses.map((h) => (
-              <span key={h} className="glass rounded-full px-5 py-2.5 text-sm tracking-wider text-white/80 hover:border-gold/40 transition">{h}</span>
+              <span key={h} className="glass rounded-full px-5 py-2.5 text-sm tracking-wider text-ink/85 hover:border-gold/40 transition">{h}</span>
             ))}
           </div>
         </div>

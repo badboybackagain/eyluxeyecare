@@ -36,7 +36,7 @@ export default function ContactLensesPage() {
                 <div key={t.title} className="rounded-3xl glass p-7 hover:border-gold/30 transition">
                   <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
                   <h3 className="mt-5 font-display text-xl">{t.title}</h3>
-                  <p className="mt-3 text-sm text-white/55 leading-relaxed">{t.desc}</p>
+                  <p className="mt-3 text-sm text-ink/70 leading-relaxed">{t.desc}</p>
                 </div>
               );
             })}
@@ -44,7 +44,7 @@ export default function ContactLensesPage() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-12">
           <SectionHeading eyebrow="The fitting process" title={<>A <span className="gold-text">90-minute</span> consultation.</>} subtitle="A proper contact lens fitting is more than a prescription. We measure corneal curvature, evaluate tear film, trial a lens, and only finalise once you feel completely comfortable." />
           <ol className="space-y-5">
@@ -59,7 +59,7 @@ export default function ContactLensesPage() {
                 <span className="font-display text-3xl gold-text w-12">{(i + 1).toString().padStart(2, '0')}</span>
                 <div>
                   <p className="font-display text-lg">{t}</p>
-                  <p className="text-sm text-white/55 mt-1">{d}</p>
+                  <p className="text-sm text-ink/70 mt-1">{d}</p>
                 </div>
               </li>
             ))}

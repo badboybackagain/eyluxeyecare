@@ -43,12 +43,12 @@ export default function Services() {
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/0 group-hover:from-gold/10 group-hover:to-gold/0 transition-all duration-700" />
                   <div className="relative">
-                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-white/[0.04] border border-white/10 group-hover:border-gold/40 transition">
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-ink/[0.04] border border-ink/12 group-hover:border-gold/40 transition">
                       <Icon className="h-5 w-5 text-gold" strokeWidth={1.5} />
                     </span>
                     <h3 className="mt-6 font-display text-xl tracking-tight">{s.title}</h3>
-                    <p className="mt-3 text-sm text-white/55 leading-relaxed">{s.desc}</p>
-                    <span className="mt-6 inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.25em] text-white/40 group-hover:text-gold transition">
+                    <p className="mt-3 text-sm text-ink/70 leading-relaxed">{s.desc}</p>
+                    <span className="mt-6 inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.25em] text-ink/55 group-hover:text-gold transition">
                       Explore <ArrowUpRight className="h-3.5 w-3.5" />
                     </span>
                   </div>

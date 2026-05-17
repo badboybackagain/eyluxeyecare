@@ -25,7 +25,7 @@ export default function BrandMarquee() {
         <Marquee speed={40} gradient={false} pauseOnHover>
           {brands.map((b) => (
             <div key={b} className="mx-8 md:mx-14">
-              <span className="font-display text-3xl md:text-5xl text-white/40 hover:text-white transition-colors duration-500 tracking-tight whitespace-nowrap">
+              <span className="font-display text-3xl md:text-5xl text-ink/55 hover:text-ink transition-colors duration-500 tracking-tight whitespace-nowrap">
                 {b}
               </span>
             </div>

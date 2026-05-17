@@ -16,8 +16,8 @@ function BrandCard({ name, group }) {
     <div className="group relative rounded-3xl glass aspect-[5/3] flex items-center justify-center overflow-hidden hover:border-gold/40 transition-all duration-500" data-testid={`brand-card-${name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
       <div className="absolute inset-0 bg-gradient-to-br from-gold/0 via-transparent to-gold/0 group-hover:from-gold/10 group-hover:to-transparent transition-all duration-700" />
       <div className="relative text-center px-4">
-        <p className="font-display text-3xl md:text-4xl tracking-tight text-white/85 group-hover:gold-text transition">{name}</p>
-        <p className="mt-2 text-[10px] uppercase tracking-[0.35em] text-white/35">{group}</p>
+        <p className="font-display text-3xl md:text-4xl tracking-tight text-ink/85 group-hover:gold-text transition">{name}</p>
+        <p className="mt-2 text-[10px] uppercase tracking-[0.35em] text-ink/45">{group}</p>
       </div>
     </div>
   );

@@ -13,12 +13,12 @@ export default function PageHero({ eyebrow, title, subtitle, image, ctaPrimary, 
             alt=""
             fill
             priority
-            className="object-cover opacity-30"
+            className="object-cover opacity-25"
             sizes="100vw"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/40 via-bg-primary/70 to-bg-primary" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.10),transparent_55%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/60 via-bg-primary/85 to-bg-primary" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(168,132,42,0.12),transparent_55%)]" />
       </div>
 
       <div className="mx-auto max-w-7xl px-6">
@@ -43,7 +43,7 @@ export default function PageHero({ eyebrow, title, subtitle, image, ctaPrimary, 
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25 }}
-            className="mt-8 max-w-2xl text-white/65 text-base md:text-lg leading-relaxed"
+            className="mt-8 max-w-2xl text-ink/75 text-base md:text-lg leading-relaxed"
           >
             {subtitle}
           </motion.p>

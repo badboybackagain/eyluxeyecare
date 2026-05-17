@@ -34,7 +34,7 @@ export default function Testimonials() {
               data-testid={`testimonial-${i}`}
             >
               <Quote className="absolute -top-2 -right-2 h-20 w-20 text-gold/5" />
-              <blockquote className="text-[15px] leading-relaxed text-white/75 relative">
+              <blockquote className="text-[15px] leading-relaxed text-ink/80 relative">
                 &ldquo;{t.text}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3">
@@ -42,8 +42,8 @@ export default function Testimonials() {
                   {t.name.charAt(0)}
                 </span>
                 <div>
-                  <p className="text-sm text-white">{t.name}</p>
-                  <p className="text-xs text-white/45">{t.role}</p>
+                  <p className="text-sm text-ink">{t.name}</p>
+                  <p className="text-xs text-ink/60">{t.role}</p>
                 </div>
               </figcaption>
             </motion.figure>

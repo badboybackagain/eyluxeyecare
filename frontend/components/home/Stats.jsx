@@ -32,7 +32,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="relative py-24 md:py-32 border-y border-white/5" data-testid="home-stats">
+    <section className="relative py-24 md:py-32 border-y border-ink/10" data-testid="home-stats">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-6">
           {stats.map((s, i) => (
@@ -47,7 +47,7 @@ export default function Stats() {
               <p className="font-display text-5xl md:text-6xl tracking-tight">
                 <Counter to={s.value} suffix={s.suffix} />
               </p>
-              <p className="mt-3 text-xs md:text-sm uppercase tracking-[0.25em] text-white/45">
+              <p className="mt-3 text-xs md:text-sm uppercase tracking-[0.25em] text-ink/60">
                 {s.label}
               </p>
             </motion.div>

@@ -41,7 +41,7 @@ export default function KidsVisionPage() {
                   <div key={f.title} className="rounded-2xl glass p-5">
                     <Icon className="h-5 w-5 text-gold" strokeWidth={1.5} />
                     <h3 className="mt-4 font-display text-base">{f.title}</h3>
-                    <p className="mt-2 text-xs text-white/55 leading-relaxed">{f.desc}</p>
+                    <p className="mt-2 text-xs text-ink/70 leading-relaxed">{f.desc}</p>
                   </div>
                 );
               })}

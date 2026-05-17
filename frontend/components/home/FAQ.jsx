@@ -26,7 +26,7 @@ const faqSchema = {
 export default function FAQ() {
   const [open, setOpen] = useState(0);
   return (
-    <section className="relative py-28 md:py-40 border-t border-white/5" data-testid="home-faq">
+    <section className="relative py-28 md:py-40 border-t border-ink/10" data-testid="home-faq">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <div className="mx-auto max-w-5xl px-6">
         <SectionHeading
@@ -49,8 +49,8 @@ export default function FAQ() {
                   aria-expanded={isOpen}
                   data-testid={`faq-toggle-${i}`}
                 >
-                  <span className="font-display text-base md:text-lg text-white">{f.q}</span>
-                  <span className={`shrink-0 grid place-items-center h-9 w-9 rounded-full border border-white/15 transition-transform duration-500 ${isOpen ? 'rotate-45 bg-gold/15 border-gold/40' : ''}`}>
+                  <span className="font-display text-base md:text-lg text-ink">{f.q}</span>
+                  <span className={`shrink-0 grid place-items-center h-9 w-9 rounded-full border border-ink/15 transition-transform duration-500 ${isOpen ? 'rotate-45 bg-gold/15 border-gold/40' : ''}`}>
                     <Plus className="h-4 w-4 text-gold" />
                   </span>
                 </button>
@@ -63,7 +63,7 @@ export default function FAQ() {
                       transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                       className="overflow-hidden"
                     >
-                      <p className="px-6 pb-6 text-sm text-white/60 leading-relaxed max-w-3xl">{f.a}</p>
+                      <p className="px-6 pb-6 text-sm text-ink/70 leading-relaxed max-w-3xl">{f.a}</p>
                     </motion.div>
                   )}
                 </AnimatePresence>

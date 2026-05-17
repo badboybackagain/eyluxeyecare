@@ -50,7 +50,7 @@ export default function EyeTestingPage() {
                 <div key={t.title} className="rounded-3xl glass p-7 hover:border-gold/30 transition">
                   <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
                   <h3 className="mt-5 font-display text-xl">{t.title}</h3>
-                  <p className="mt-3 text-sm text-white/55 leading-relaxed">{t.desc}</p>
+                  <p className="mt-3 text-sm text-ink/70 leading-relaxed">{t.desc}</p>
                 </div>
               );
             })}
@@ -58,14 +58,14 @@ export default function EyeTestingPage() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading eyebrow="The Eylux 7-step exam" title={<>How your <span className="gold-text">appointment</span> unfolds.</>} />
           <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {flow.map((f, i) => (
               <div key={f.step} className={`rounded-3xl p-6 ${i === flow.length - 1 ? 'glass-strong border-gold/30' : 'glass'}`}>
                 <span className="font-display text-4xl gold-text">{f.step}</span>
-                <h3 className="mt-4 text-base text-white">{f.title}</h3>
+                <h3 className="mt-4 text-base text-ink">{f.title}</h3>
               </div>
             ))}
           </div>

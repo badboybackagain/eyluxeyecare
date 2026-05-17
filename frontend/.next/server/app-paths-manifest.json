@@ -1,4 +1,13 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/eye-testing/page": "app/eye-testing/page.js",
+  "/lenses/page": "app/lenses/page.js",
+  "/frames/page": "app/frames/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/kids-vision/page": "app/kids-vision/page.js",
+  "/meta-ai-glasses/page": "app/meta-ai-glasses/page.js",
+  "/contact-lenses/page": "app/contact-lenses/page.js",
+  "/brands/page": "app/brands/page.js",
+  "/blog/page": "app/blog/page.js"
 }

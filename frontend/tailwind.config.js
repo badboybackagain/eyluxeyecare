@@ -8,15 +8,28 @@ module.exports = {
     extend: {
       colors: {
         bg: {
-          primary: '#050505',
-          secondary: '#0A0A0E',
-          surface: '#121218',
-          navy: '#0B1220',
+          primary: '#F5F0E6',   // warm cream (default page bg)
+          secondary: '#EFE9DC', // slightly deeper for sections
+          surface: '#FBF7EF',   // lightest surface for cards
+          ink: '#161311',       // for footer / dark accent blocks
         },
+        ink: {
+          DEFAULT: '#14110D',
+          soft: '#3C342A',
+          muted: '#6B6157',
+          faint: '#9A9081',
+        },
+        cream: {
+          DEFAULT: '#F5F0E6',
+          light: '#FBF7EF',
+          warm: '#EFE9DC',
+        },
+        ivory: '#FBF7EF',
         gold: {
-          DEFAULT: '#D4AF37',
-          light: '#F3E5AB',
-          dark: '#997A15',
+          DEFAULT: '#A8842A',
+          light: '#D5AE49',
+          dark: '#74591A',
+          warm: '#C9A24E',
         },
       },
       fontFamily: {

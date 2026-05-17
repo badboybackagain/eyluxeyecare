@@ -88,11 +88,11 @@ export default function BlogPage() {
                     <span className="absolute top-4 left-4 glass-strong rounded-full px-3 py-1.5 text-[10px] uppercase tracking-[0.25em] text-gold">{p.category}</span>
                   </div>
                   <div className="p-7">
-                    <div className="flex items-center justify-between text-xs text-white/40">
+                    <div className="flex items-center justify-between text-xs text-ink/55">
                       <span>{p.date}</span><span>{p.read} read</span>
                     </div>
                     <h2 className="mt-4 font-display text-xl md:text-2xl tracking-tight leading-snug group-hover:gold-text transition">{p.title}</h2>
-                    <p className="mt-3 text-sm text-white/55 leading-relaxed">{p.excerpt}</p>
+                    <p className="mt-3 text-sm text-ink/70 leading-relaxed">{p.excerpt}</p>
                     <span className="mt-6 inline-flex items-center gap-1 text-xs uppercase tracking-[0.25em] text-gold">
                       Read article <ArrowUpRight className="h-3.5 w-3.5" />
                     </span>

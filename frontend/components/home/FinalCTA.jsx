@@ -7,8 +7,8 @@ export default function FinalCTA() {
   return (
     <section className="relative py-28 md:py-40 overflow-hidden" data-testid="home-final-cta">
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-[#0b0904] to-bg-primary" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_30%,rgba(212,175,55,0.18),transparent_60%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-secondary to-bg-primary" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_30%,rgba(168,132,42,0.16),transparent_60%)]" />
       </div>
 
       <div className="mx-auto max-w-5xl px-6 text-center">
@@ -35,7 +35,7 @@ export default function FinalCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mt-8 max-w-2xl mx-auto text-white/60 text-base md:text-lg"
+          className="mt-8 max-w-2xl mx-auto text-ink/70 text-base md:text-lg"
         >
           Walk into our Hadapsar boutique for a complimentary consultation. We&apos;ll measure, advise and craft the perfect pair — together.
         </motion.p>

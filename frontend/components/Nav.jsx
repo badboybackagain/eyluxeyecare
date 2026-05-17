@@ -60,7 +60,7 @@ export default function Nav() {
                   key={l.href}
                   href={l.href}
                   className={`px-3 py-1.5 text-xs tracking-wider uppercase transition-colors rounded-full ${
-                    pathname === l.href ? 'text-white bg-white/5' : 'text-white/60 hover:text-white'
+                    pathname === l.href ? 'text-ink bg-ink/[0.04]' : 'text-ink/70 hover:text-ink'
                   }`}
                   data-testid={`nav-${l.label.toLowerCase().replace(/\s+/g, '-')}`}
                 >
@@ -121,7 +121,7 @@ export default function Nav() {
                   >
                     <Link
                       href={l.href}
-                      className="block font-display text-4xl md:text-5xl tracking-tight text-white/90 hover:gold-text transition"
+                      className="block font-display text-4xl md:text-5xl tracking-tight text-ink/90 hover:gold-text transition"
                       data-testid={`menu-link-${l.label.toLowerCase().replace(/\s+/g, '-')}`}
                     >
                       {l.label}
@@ -133,19 +133,19 @@ export default function Nav() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
-                className="space-y-6 text-white/60 text-sm"
+                className="space-y-6 text-ink/70 text-sm"
               >
                 <div>
-                  <p className="uppercase tracking-widest text-xs text-white/40">Visit</p>
-                  <p className="mt-2 text-white/90">Keshav Nagar, Hadapsar<br/>Pune, Maharashtra 411028</p>
+                  <p className="uppercase tracking-widest text-xs text-ink/55">Visit</p>
+                  <p className="mt-2 text-ink/90">Keshav Nagar, Hadapsar<br/>Pune, Maharashtra 411028</p>
                 </div>
                 <div>
-                  <p className="uppercase tracking-widest text-xs text-white/40">Hours</p>
-                  <p className="mt-2 text-white/90">Mon–Sun · 10:00 AM – 9:30 PM</p>
+                  <p className="uppercase tracking-widest text-xs text-ink/55">Hours</p>
+                  <p className="mt-2 text-ink/90">Mon–Sun · 10:00 AM – 9:30 PM</p>
                 </div>
                 <div>
-                  <p className="uppercase tracking-widest text-xs text-white/40">Contact</p>
-                  <p className="mt-2 text-white/90">+91 99999 99999<br/>hello@eyluxeyecare.com</p>
+                  <p className="uppercase tracking-widest text-xs text-ink/55">Contact</p>
+                  <p className="mt-2 text-ink/90">+91 99999 99999<br/>hello@eyluxeyecare.com</p>
                 </div>
                 <Link href="/contact" className="btn-gold inline-flex mt-4" data-testid="menu-book-btn">Book Eye Test</Link>
               </motion.div>

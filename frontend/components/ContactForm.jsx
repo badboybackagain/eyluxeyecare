@@ -61,7 +61,7 @@ export default function ContactForm() {
       >
         <CheckCircle2 className="h-12 w-12 mx-auto text-gold" strokeWidth={1.5} />
         <h3 className="mt-6 font-display text-3xl">Appointment requested.</h3>
-        <p className="mt-4 text-white/60 text-sm max-w-md mx-auto">
+        <p className="mt-4 text-ink/70 text-sm max-w-md mx-auto">
           Thank you — our team will reach out within minutes during business hours to confirm your slot.
         </p>
         <button onClick={() => setStatus('idle')} className="btn-ghost mt-8" data-testid="contact-reset">
@@ -80,12 +80,12 @@ export default function ContactForm() {
       <Field label="Email" id="email" type="email" value={form.email} onChange={update('email')} required testid="contact-email" />
 
       <div>
-        <label htmlFor="service" className="block text-[11px] uppercase tracking-[0.3em] text-white/40 mb-2">Interested in</label>
+        <label htmlFor="service" className="block text-[11px] uppercase tracking-[0.3em] text-ink/55 mb-2">Interested in</label>
         <select
           id="service"
           value={form.service}
           onChange={update('service')}
-          className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white outline-none focus:border-gold/50 transition"
+          className="w-full bg-ink/[0.04] border border-ink/12 rounded-xl px-4 py-3.5 text-sm text-ink outline-none focus:border-gold/50 transition"
           data-testid="contact-service"
         >
           {services.map((s) => <option key={s} value={s} className="bg-bg-primary">{s}</option>)}
@@ -95,14 +95,14 @@ export default function ContactForm() {
       <Field label="Preferred date" id="date" type="date" value={form.date} onChange={update('date')} testid="contact-date" />
 
       <div>
-        <label htmlFor="message" className="block text-[11px] uppercase tracking-[0.3em] text-white/40 mb-2">Anything we should know?</label>
+        <label htmlFor="message" className="block text-[11px] uppercase tracking-[0.3em] text-ink/55 mb-2">Anything we should know?</label>
         <textarea
           id="message"
           value={form.message}
           onChange={update('message')}
           rows={4}
           placeholder="E.g. I have an existing prescription, looking for progressive lenses…"
-          className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white placeholder:text-white/30 outline-none focus:border-gold/50 transition resize-none"
+          className="w-full bg-ink/[0.04] border border-ink/12 rounded-xl px-4 py-3.5 text-sm text-ink placeholder:text-ink/45 outline-none focus:border-gold/50 transition resize-none"
           data-testid="contact-message"
         />
       </div>
@@ -121,7 +121,7 @@ export default function ContactForm() {
       >
         {status === 'loading' ? 'Sending…' : 'Request Appointment'} <Send className="h-4 w-4" />
       </button>
-      <p className="text-[11px] text-white/40">By submitting, you agree to be contacted by our team. We never share your details.</p>
+      <p className="text-[11px] text-ink/55">By submitting, you agree to be contacted by our team. We never share your details.</p>
     </form>
   );
 }
@@ -129,14 +129,14 @@ export default function ContactForm() {
 function Field({ label, id, type = 'text', value, onChange, required, testid }) {
   return (
     <div>
-      <label htmlFor={id} className="block text-[11px] uppercase tracking-[0.3em] text-white/40 mb-2">{label}{required && <span className="text-gold"> *</span>}</label>
+      <label htmlFor={id} className="block text-[11px] uppercase tracking-[0.3em] text-ink/55 mb-2">{label}{required && <span className="text-gold"> *</span>}</label>
       <input
         id={id}
         type={type}
         required={required}
         value={value}
         onChange={onChange}
-        className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white placeholder:text-white/30 outline-none focus:border-gold/50 transition"
+        className="w-full bg-ink/[0.04] border border-ink/12 rounded-xl px-4 py-3.5 text-sm text-ink placeholder:text-ink/45 outline-none focus:border-gold/50 transition"
         data-testid={testid}
       />
     </div>

@@ -48,7 +48,7 @@ export default function MetaAIPage() {
             <span className="block gold-text">Smart Glasses.</span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-white/65 text-lg leading-relaxed">
+          <p className="mt-8 max-w-2xl text-ink/75 text-lg leading-relaxed">
             Capture, listen, call and converse — without ever reaching for your phone. Now stocked at Eylux Eye Care, Hadapsar. Walk in for a private demonstration.
           </p>
 
@@ -59,7 +59,7 @@ export default function MetaAIPage() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 border-y border-white/5">
+      <section className="py-24 md:py-32 border-y border-ink/10">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading eyebrow="Capabilities" title={<>Tomorrow&apos;s eyewear, <span className="gold-text">today.</span></>} />
           <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -76,7 +76,7 @@ export default function MetaAIPage() {
                 >
                   <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
                   <h3 className="mt-5 font-display text-xl">{f.title}</h3>
-                  <p className="mt-3 text-sm text-white/55 leading-relaxed">{f.desc}</p>
+                  <p className="mt-3 text-sm text-ink/70 leading-relaxed">{f.desc}</p>
                 </motion.div>
               );
             })}
@@ -95,7 +95,7 @@ export default function MetaAIPage() {
                 <div className="absolute top-5 right-5 glass-strong rounded-full px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-gold">{v.tag}</div>
                 <div className="absolute bottom-7 left-7 right-7">
                   <p className="font-display text-3xl md:text-4xl">{v.name}</p>
-                  <p className="mt-3 text-sm text-white/70 max-w-sm">{v.desc}</p>
+                  <p className="mt-3 text-sm text-ink/75 max-w-sm">{v.desc}</p>
                 </div>
               </div>
             ))}

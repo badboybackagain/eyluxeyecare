@@ -25,13 +25,14 @@ export default function Hero() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/30 via-bg-primary/60 to-bg-primary" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_70%_30%,rgba(212,175,55,0.18),transparent_55%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/55 via-bg-primary/82 to-bg-primary" />
+        <div className="absolute inset-0 bg-gradient-to-r from-bg-primary/70 via-bg-primary/30 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_75%_25%,rgba(168,132,42,0.18),transparent_55%)] mix-blend-multiply" />
       </motion.div>
 
       {/* subtle decorative orbits */}
-      <div className="pointer-events-none absolute -right-40 top-1/3 h-[500px] w-[500px] rounded-full border border-white/5 animate-spin-slow" />
-      <div className="pointer-events-none absolute -right-60 top-1/4 h-[700px] w-[700px] rounded-full border border-white/[0.03] animate-spin-slow" style={{ animationDirection: 'reverse' }} />
+      <div className="pointer-events-none absolute -right-40 top-1/3 h-[500px] w-[500px] rounded-full border border-ink/10 animate-spin-slow" />
+      <div className="pointer-events-none absolute -right-60 top-1/4 h-[700px] w-[700px] rounded-full border border-ink/[0.06] animate-spin-slow" style={{ animationDirection: 'reverse' }} />
 
       <div className="relative mx-auto max-w-7xl px-6 w-full pt-32 pb-20">
         <div className="grid lg:grid-cols-12 gap-10 items-center">
@@ -40,7 +41,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs uppercase tracking-[0.25em] text-white/70"
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs uppercase tracking-[0.25em] text-ink/75"
             >
               <Sparkles className="h-3.5 w-3.5 text-gold" />
               Premium Optical Boutique · Hadapsar, Pune
@@ -64,7 +65,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.95 }}
-              className="mt-8 max-w-xl text-white/65 text-base md:text-lg leading-relaxed"
+              className="mt-8 max-w-xl text-ink/75 text-base md:text-lg leading-relaxed"
             >
               A boutique optical experience in Hadapsar — advanced digital eye testing, branded designer frames, progressive lenses, kids vision care, and the new generation of Meta AI smart glasses.
             </motion.p>
@@ -93,12 +94,12 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.4 }}
-              className="mt-16 flex items-center gap-6 text-xs uppercase tracking-[0.25em] text-white/40"
+              className="mt-16 flex items-center gap-6 text-xs uppercase tracking-[0.25em] text-ink/55"
             >
-              <span>Essilor</span><span className="text-white/15">·</span>
-              <span>Zeiss</span><span className="text-white/15">·</span>
-              <span>Ray-Ban</span><span className="text-white/15">·</span>
-              <span>Oakley</span><span className="text-white/15">·</span>
+              <span>Essilor</span><span className="text-ink/25">·</span>
+              <span>Zeiss</span><span className="text-ink/25">·</span>
+              <span>Ray-Ban</span><span className="text-ink/25">·</span>
+              <span>Oakley</span><span className="text-ink/25">·</span>
               <span className="hidden md:inline">Meta AI</span>
             </motion.div>
           </div>
@@ -112,10 +113,10 @@ export default function Hero() {
             >
               <div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden glass-strong">
                 <Image src={SIDE_IMAGE} alt="Luxury frames detail" fill sizes="500px" className="object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
-                  <p className="text-xs uppercase tracking-[0.3em] text-gold/80">Curated Collection</p>
-                  <p className="mt-2 font-display text-2xl">12+ Luxury Houses</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-gold-light">Curated Collection</p>
+                  <p className="mt-2 font-display text-2xl text-white">12+ Luxury Houses</p>
                 </div>
               </div>
 
@@ -124,9 +125,9 @@ export default function Hero() {
                 transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
                 className="absolute -left-10 -bottom-6 rounded-2xl glass-strong p-4 w-56"
               >
-                <p className="text-[10px] uppercase tracking-[0.3em] text-gold/80">Now Available</p>
-                <p className="font-display text-lg leading-tight mt-1">Ray-Ban Meta AI Glasses</p>
-                <p className="text-xs text-white/55 mt-1">Built-in camera · Voice · Music</p>
+                <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Now Available</p>
+                <p className="font-display text-lg leading-tight mt-1 text-ink">Ray-Ban Meta AI Glasses</p>
+                <p className="text-xs text-ink/70 mt-1">Built-in camera · Voice · Music</p>
               </motion.div>
             </motion.div>
           </div>
@@ -136,10 +137,10 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.8, duration: 1 }}
-          className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.4em] text-white/35"
+          className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.4em] text-ink/45"
         >
           <span>Scroll</span>
-          <span className="h-10 w-px bg-gradient-to-b from-white/40 to-transparent" />
+          <span className="h-10 w-px bg-gradient-to-b from-ink/40 to-transparent" />
         </motion.div>
       </div>
     </section>

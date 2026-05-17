@@ -24,10 +24,10 @@ export default function MetaAI() {
     <section ref={ref} className="relative py-32 md:py-48 overflow-hidden" data-testid="home-meta-ai">
       {/* Background gradient field */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-[#070710] to-bg-primary" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(212,175,55,0.12),transparent_60%)]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[700px] w-[700px] rounded-full border border-gold/10 animate-spin-slow" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[900px] w-[900px] rounded-full border border-gold/[0.06]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-secondary to-bg-primary" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(168,132,42,0.10),transparent_60%)]" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[700px] w-[700px] rounded-full border border-gold/15 animate-spin-slow" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[900px] w-[900px] rounded-full border border-gold/[0.1]" />
       </div>
 
       <div className="mx-auto max-w-7xl px-6">
@@ -58,7 +58,7 @@ export default function MetaAI() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.15 }}
-              className="mt-8 max-w-xl text-white/60 text-base md:text-lg leading-relaxed"
+              className="mt-8 max-w-xl text-ink/70 text-base md:text-lg leading-relaxed"
             >
               Designed in collaboration with Ray-Ban and Oakley, the new generation of Meta AI eyewear lets you capture, listen, call and ask — without ever reaching for your phone. Try them on at our boutique.
             </motion.p>
@@ -76,7 +76,7 @@ export default function MetaAI() {
                     className="glass rounded-2xl px-4 py-3.5 flex items-center gap-3"
                   >
                     <Icon className="h-4 w-4 text-gold" strokeWidth={1.5} />
-                    <span className="text-sm text-white/80">{f.label}</span>
+                    <span className="text-sm text-ink/85">{f.label}</span>
                   </motion.div>
                 );
               })}
@@ -98,8 +98,8 @@ export default function MetaAI() {
               </div>
               <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between">
                 <div>
-                  <p className="text-[10px] uppercase tracking-[0.3em] text-gold/80">Available</p>
-                  <p className="font-display text-2xl mt-1">Ray-Ban & Oakley Meta</p>
+                  <p className="text-[10px] uppercase tracking-[0.3em] text-gold-light">Available</p>
+                  <p className="font-display text-2xl mt-1 text-white">Ray-Ban & Oakley Meta</p>
                 </div>
               </div>
             </div>
