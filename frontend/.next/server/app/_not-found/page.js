@@ -261,7 +261,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/framer-motion","vendor-chunks/lucide-react","vendor-chunks/motion-dom","vendor-chunks/lenis","vendor-chunks/motion-utils"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=node_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2Fapp%2Ffrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fapp%2Ffrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/framer-motion","vendor-chunks/motion-dom","vendor-chunks/lenis","vendor-chunks/lucide-react","vendor-chunks/@swc","vendor-chunks/motion-utils"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=node_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2Fapp%2Ffrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fapp%2Ffrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
