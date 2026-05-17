@@ -1,0 +1,134 @@
+{
+  "theme": "DARK",
+  "archetype": "5 (Jewel & Luxury)",
+  "typography_pairing": {
+    "heading_font": "Clash Display",
+    "heading_fallback": "Satoshi, sans-serif",
+    "body_font": "Inter",
+    "body_fallback": "sans-serif",
+    "heading_weights": "500, 600, 700",
+    "body_weights": "300, 400, 500",
+    "rules": {
+      "headings": "Tight letter spacing (tracking-tight), never use Inter for headings.",
+      "body": "Generous line height (leading-relaxed), light/regular weights for elegance."
+    }
+  },
+  "color_tokens": {
+    "background": {
+      "primary": "#050505",
+      "secondary": "#0A0A0E",
+      "surface": "#121218"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "muted": "#71717A"
+    },
+    "accents": {
+      "gold_primary": "#D4AF37",
+      "gold_light": "#F3E5AB",
+      "gold_dark": "#997A15"
+    },
+    "glass": {
+      "light": "rgba(255, 255, 255, 0.05)",
+      "medium": "rgba(255, 255, 255, 0.1)",
+      "border": "rgba(255, 255, 255, 0.1)"
+    }
+  },
+  "glassmorphism_specs": {
+    "backdrop_blur": "backdrop-blur-xl",
+    "background_color": "bg-white/5",
+    "border": "border border-white/10",
+    "shadow": "shadow-[0_8px_32px_rgba(0,0,0,0.5)]",
+    "usage": "Use for sticky headers, testimonial bento cards, floating CTAs, and service cards."
+  },
+  "animation_patterns": {
+    "scroll_smoothness": "Lenis smooth scrolling applied globally.",
+    "reveal": "GSAP/Framer Motion scroll reveals (y: 40, opacity: 0 -> 1) with stagger.",
+    "parallax": "Subtle parallax on hero background and large images.",
+    "hover_morphing": "Premium hover states on cards - scale up image slightly (1.05x), reveal hidden text, border glow.",
+    "marquee": "Continuous slow scrolling for brand logos using react-fast-marquee or framer-motion.",
+    "page_transitions": "Fade to black/dark overlay on route changes."
+  },
+  "layouts": {
+    "Home": {
+      "Hero": "Cinematic full-screen (100vh). Video or high-res image background with dark overlay. Large Clash Display headline. Floating/rotating eyewear elements.",
+      "Stats": "Animated counters (Years, Customers, Brands) with gold accents. Grid layout.",
+      "Services": "Bento grid of hover-expand cards. Glassmorphism surfaces. High-quality imagery for each service.",
+      "Brands_Marquee": "Infinite scrolling logo wall with premium brands listed in the problem statement.",
+      "Meta_AI_Section": "Dark, futuristic section with glowing accents. Parallax effect showcasing Ray-Ban/Oakley smart glasses.",
+      "Testimonials": "Apple-style glass bento grid. Smooth entrance animations.",
+      "Store_Experience": "Interactive image gallery showcasing the modern optical store interior.",
+      "CTA": "Large section with 'Book Eye Test', prominent gold button, elegant typography."
+    },
+    "About": "Storytelling focused. Timeline of the boutique, imagery of the team, and philosophy.",
+    "Eye_Testing": "Detailed breakdown of the 7-step eye test. Clinical yet premium feel. High-quality optometry images.",
+    "Lenses": "Educational section comparing Essilor, Zeiss, Hoya. Visual comparison sliders if possible.",
+    "Frames_Sunglasses": "Product catalog style but editorial. Large imagery, minimal text.",
+    "Meta_AI_Smart_Glasses": "Dedicated landing page. Tech-focused, heavy use of black and gold/neon accents.",
+    "Contact_Lenses": "Clean, soft aesthetic but keeping the dark theme. Focus on comfort and brands.",
+    "Kids_Vision_Care": "Slightly warmer tone within the dark theme. Imagery of kids in stylish glasses.",
+    "Brands": "Comprehensive A-Z list or grid of all carried brands with their logos.",
+    "Blog": "Editorial bento grid for articles. Focus on eye health and eyewear trends.",
+    "Contact": "Premium form (posting to webhook placeholder). Google Map embed of Hadapsar, Pune. Hours and direct contact info."
+  },
+  "navigation": {
+    "style": "Sticky/Fixed floating header. Glassmorphism applied (backdrop-blur-xl bg-black/50).",
+    "links": "Home, Brands, Eye Testing, Collections, Meta AI, Contact.",
+    "cta": "Prominent 'Book Appointment' button with gold accent border.",
+    "mobile": "Full-screen dark overlay menu with staggered link reveal."
+  },
+  "footer": {
+    "style": "Massive padding (py-32). Darkest background (#050505).",
+    "content": "Large Eylux logo. Minimalist links. Newsletter signup with simple underline input. Social links.",
+    "layout": "Grid structure with high negative space."
+  },
+  "floating_ctas": {
+    "WhatsApp": "Fixed bottom-right. Glassmorphic circular button with WhatsApp icon. Pulse animation.",
+    "Book_Test": "Fixed bottom-center or left. Pill-shaped glassmorphic button. Gold text."
+  },
+  "image_urls": {
+    "hero_sunglasses": {
+      "url": "https://images.unsplash.com/photo-1618677366787-9727aacca7ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBzdW5nbGFzc2VzJTIwZGFyayUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3Nzg5OTk5NDF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Black framed sunglasses, ideal for hero background overlay."
+    },
+    "luxury_frames": {
+      "url": "https://images.unsplash.com/photo-1530432999454-016a47c78af3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBzdW5nbGFzc2VzJTIwZGFyayUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3Nzg5OTk5NDF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Black wayfarer sunglasses on black surface for collections."
+    },
+    "store_interior_1": {
+      "url": "https://images.unsplash.com/photo-1764778055595-b641b067ab40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxvcHRpY2FsJTIwc3RvcmUlMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3Nzg5OTk5NDF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Modern optical store interior."
+    },
+    "store_interior_2": {
+      "url": "https://images.unsplash.com/photo-1778731525581-9cff0deca568?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwzfHxvcHRpY2FsJTIwc3RvcmUlMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3Nzg5OTk5NDF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Contemporary interior with marble/chandelier (use for luxury vibe)."
+    },
+    "smart_glasses": {
+      "url": "https://images.unsplash.com/photo-1562330744-0e81c1e9dd88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwc21hcnQlMjBnbGFzc2VzfGVufDB8fHx8MTc3ODk5OTk0MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Futuristic smart glasses for Meta AI section."
+    },
+    "person_luxury_glasses": {
+      "url": "https://images.unsplash.com/photo-1525786210598-d527194d3e9a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjB3ZWFyaW5nJTIwbHV4dXJ5JTIwZXllZ2xhc3Nlc3xlbnwwfHx8fDE3Nzg5OTk5NDZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Woman wearing premium eyeglasses for Frames section."
+    },
+    "eye_test_clinic": {
+      "url": "https://images.unsplash.com/photo-1576210117723-cd06449a467d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxleWUlMjB0ZXN0JTIwb3B0b21ldHJ5JTIwY2xpbmljfGVufDB8fHx8MTc3ODk5OTk0Nnww&ixlib=rb-4.1.0&q=85",
+      "description": "Medical eye test equipment for Eye Testing section."
+    },
+    "kids_glasses": {
+      "url": "https://images.unsplash.com/photo-1742321694002-77d33db25f68?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxraWRzJTIwd2VhcmluZyUyMGdsYXNzZXN8ZW58MHx8fHwxNzc4OTk5OTQ2fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Little girl wearing glasses for Kids Vision Care section."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install 'framer-motion', '@studio-freight/react-lenis', 'gsap', 'lucide-react', and 'react-fast-marquee'.",
+    "Use pure HTML/Tailwind for marketing layouts. Avoid Shadcn for standard structural sections as they require deep customization to fit the 'Adinshaw' premium vibe.",
+    "All interactive elements MUST have 'data-testid' attributes (e.g., data-testid='book-test-btn').",
+    "Strictly follow the color palette: Matte Black, Deep Navy, White, and Gold. NO PURPLE OR TEAL.",
+    "Implement glassmorphism heavily for cards and headers using 'bg-white/5 backdrop-blur-xl border border-white/10'.",
+    "Use standard semantic HTML with accessible aria labels for links and buttons.",
+    "Ensure 'Inter' is used for body and 'Clash Display' (if available, else 'Satoshi' or strong variable sans) for Headings.",
+    "Never use generic placeholder images; use the provided image URLs."
+  ]
+}
