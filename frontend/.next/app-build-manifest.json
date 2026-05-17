@@ -1,65 +1,121 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/app/_not-found/page-221ef7203edcd7a2.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
-    "/eye-testing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/eye-testing/page.js"
-    ],
-    "/lenses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/lenses/page.js"
-    ],
-    "/frames/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/frames/page.js"
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/css/03289bd2f8aa545d.css",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/83-f942d52588feb601.js",
+      "static/chunks/app/layout-3eee393827eab310.js"
     ],
     "/meta-ai-glasses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/meta-ai-glasses/page.js"
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/meta-ai-glasses/page-a3f11831e2de77e4.js"
     ],
-    "/contact-lenses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact-lenses/page.js"
-    ],
-    "/kids-vision/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/kids-vision/page.js"
+    "/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/970-5fb443e38231a417.js",
+      "static/chunks/app/page-868aada3e8872de1.js"
     ],
     "/brands/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/brands/page.js"
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/brands/page-5c79037d464b4f70.js"
     ],
     "/blog/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blog/page.js"
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/blog/page-4dcfd5b8ec5a6ef4.js"
+    ],
+    "/contact-lenses/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/contact-lenses/page-0c8df513d2a23058.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/about/page-8a6bacc2c0cb1574.js"
+    ],
+    "/kids-vision/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/kids-vision/page-de6907fb7e1695c4.js"
+    ],
+    "/frames/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/frames/page-393d9438c93b7098.js"
+    ],
+    "/eye-testing/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/eye-testing/page-02baf6cedda2e9b7.js"
     ],
     "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/contact/page-af691724e22d8fc0.js"
+    ],
+    "/lenses/page": [
+      "static/chunks/webpack-aa75ef1cc209a81b.js",
+      "static/chunks/fd9d1056-8fef90fb5a0b2194.js",
+      "static/chunks/117-d0b3fa9ac2a13dbe.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/883-3bff10f93a7b31a1.js",
+      "static/chunks/145-218db6c74bef4339.js",
+      "static/chunks/app/lenses/page-1b8a2af60f0fdc1b.js"
     ]
   }
 }
