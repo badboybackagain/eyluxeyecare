@@ -62,7 +62,7 @@ export default function ContactForm() {
         <CheckCircle2 className="h-12 w-12 mx-auto text-gold" strokeWidth={1.5} />
         <h3 className="mt-6 font-display text-3xl">Appointment requested.</h3>
         <p className="mt-4 text-ink/70 text-sm max-w-md mx-auto">
-          Thank you — our team will reach out within minutes during business hours to confirm your slot.
+          Thank you - our team will reach out within minutes during business hours to confirm your slot.
         </p>
         <button onClick={() => setStatus('idle')} className="btn-ghost mt-8" data-testid="contact-reset">
           Send another request

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const services = [
   { icon: ScanEye, title: 'Digital Eye Testing', desc: 'State-of-the-art computerized refraction and retinal screening for accuracy you can trust.', href: '/eye-testing' },
-  { icon: Eye, title: 'Progressive Lenses', desc: 'Seamless near, intermediate and far vision in a single lens — by Essilor, Hoya & Zeiss.', href: '/lenses' },
+  { icon: Eye, title: 'Progressive Lenses', desc: 'Seamless near, intermediate and far vision in a single lens - by Essilor, Hoya & Zeiss.', href: '/lenses' },
   { icon: Sparkles, title: 'Contact Lenses', desc: 'Premium daily, monthly and toric lenses fitted by certified specialists.', href: '/contact-lenses' },
   { icon: Baby, title: 'Kids Vision Care', desc: 'Gentle paediatric assessments and durable frames designed for tiny faces.', href: '/kids-vision' },
   { icon: Monitor, title: 'Computer Glasses', desc: 'Blue-cut and anti-fatigue lenses crafted for IT professionals and students.', href: '/lenses' },

@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-6 max-w-md text-cream/65 text-sm leading-relaxed">
-              A boutique optical experience in Hadapsar, Pune — pairing meticulous eye care with the world&apos;s finest eyewear houses.
+              A boutique optical experience in Hadapsar, Pune - pairing meticulous eye care with the world&apos;s finest eyewear houses.
             </p>
             <div className="mt-8">
               <p className="uppercase tracking-[0.3em] text-xs text-cream/50">Newsletter</p>

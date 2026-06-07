@@ -67,7 +67,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.95 }}
               className="mt-8 max-w-xl text-ink/75 text-base md:text-lg leading-relaxed"
             >
-              A boutique optical experience in Hadapsar — advanced digital eye testing, branded designer frames, progressive lenses, kids vision care, and the new generation of Meta AI smart glasses.
+              A boutique optical experience in Hadapsar - advanced digital eye testing, branded designer frames, progressive lenses, kids vision care, and the new generation of Meta AI smart glasses.
             </motion.p>
 
             <motion.div

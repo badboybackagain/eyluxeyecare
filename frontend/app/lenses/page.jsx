@@ -4,7 +4,7 @@ import FinalCTA from '../../components/home/FinalCTA';
 import { Sparkles } from 'lucide-react';
 
 export const metadata = {
-  title: 'Premium Lenses — Essilor, Hoya & Zeiss in Hadapsar',
+  title: 'Premium Lenses - Essilor, Hoya & Zeiss in Hadapsar',
   description: 'Progressive, blue-cut, anti-glare, photochromic and high-index lenses by Essilor, Hoya and Zeiss. Authorized partner in Hadapsar, Pune.',
 };
 
@@ -13,7 +13,7 @@ const categories = [
   { title: 'Blue-cut lenses', desc: 'Cut harmful blue light from screens, reduce digital eye strain and sleep better. Essential for IT professionals.', tag: 'For screens 8+ hrs/day' },
   { title: 'Computer glasses', desc: 'Specially calibrated for arm-length distances. Blue-cut + anti-fatigue + anti-glare in one.', tag: 'Anti-fatigue' },
   { title: 'Anti-glare coating', desc: 'Eliminates reflections from oncoming headlights and screens. Essential for night driving and presentations.', tag: 'Crizal · Hoya Hi-Vision' },
-  { title: 'UV protection', desc: 'Full 400nm UV-A/UV-B protection — built into the lens, not just the tint. Protects retinal health long-term.', tag: 'UV400 certified' },
+  { title: 'UV protection', desc: 'Full 400nm UV-A/UV-B protection - built into the lens, not just the tint. Protects retinal health long-term.', tag: 'UV400 certified' },
   { title: 'High-index lenses', desc: 'Thinner, lighter lenses for stronger prescriptions. 1.67 and 1.74 index for the most discerning eyes.', tag: 'Ultra-thin' },
   { title: 'Photochromic lenses', desc: 'Lenses that darken automatically in sunlight and clear up indoors. Transitions® and Sensity® available.', tag: 'Light-adaptive' },
   { title: 'Polarized lenses', desc: 'Eliminate glare from water, snow and roads. The gold standard for driving and outdoor sport.', tag: 'For sunlight' },
@@ -31,7 +31,7 @@ export default function LensesPage() {
       <PageHero
         eyebrow="Premium Lenses"
         title={<>The world&apos;s finest <span className="gold-text">lens technology,</span> crafted to your eyes.</>}
-        subtitle="Authorized partners of Essilor, Hoya and Zeiss — we stock the lens designs that the world's most demanding wearers rely on, and we know how to fit them."
+        subtitle="Authorized partners of Essilor, Hoya and Zeiss - we stock the lens designs that the world's most demanding wearers rely on, and we know how to fit them."
         image="https://images.unsplash.com/photo-1530432999454-016a47c78af3?crop=entropy&cs=srgb&fm=jpg&w=1800&q=85"
         ctaPrimary={{ label: 'Book consultation', href: '/contact' }}
       />

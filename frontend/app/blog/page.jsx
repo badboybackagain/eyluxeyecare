@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 
 export const metadata = {
-  title: 'Eye Care Journal — Eylux Eye Care Blog',
+  title: 'Eye Care Journal - Eylux Eye Care Blog',
   description: 'Insights on eye health, lens technology, eyewear fashion and the future of smart glasses. From the Eylux Eye Care boutique in Hadapsar, Pune.',
 };
 
@@ -23,7 +23,7 @@ const posts = [
   {
     slug: 'meta-ai-glasses-first-look',
     title: 'Meta AI glasses: first look from the boutique',
-    excerpt: 'We tested the Ray-Ban Meta and Oakley HSTN for a week. Here is what genuinely surprised us — and what to expect.',
+    excerpt: 'We tested the Ray-Ban Meta and Oakley HSTN for a week. Here is what genuinely surprised us - and what to expect.',
     image: 'https://images.unsplash.com/photo-1562330744-0e81c1e9dd88?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85',
     category: 'Smart Eyewear',
     date: 'October 2025',
@@ -32,7 +32,7 @@ const posts = [
   {
     slug: 'blue-light-it-professionals',
     title: 'Blue light, IT professionals & the new evening hours',
-    excerpt: 'Why people working 10+ hours on screens benefit from purpose-built blue-cut lenses — and what to look for.',
+    excerpt: 'Why people working 10+ hours on screens benefit from purpose-built blue-cut lenses - and what to look for.',
     image: 'https://images.unsplash.com/photo-1576210117723-cd06449a467d?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85',
     category: 'Vision Health',
     date: 'September 2025',
@@ -50,7 +50,7 @@ const posts = [
   {
     slug: 'frame-face-shape-guide',
     title: 'A boutique guide: matching frames to your face',
-    excerpt: 'Round, square, oval or heart-shaped — our stylists share the rules they break (and the ones they swear by).',
+    excerpt: 'Round, square, oval or heart-shaped - our stylists share the rules they break (and the ones they swear by).',
     image: 'https://images.unsplash.com/photo-1525786210598-d527194d3e9a?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85',
     category: 'Style Notes',
     date: 'July 2025',

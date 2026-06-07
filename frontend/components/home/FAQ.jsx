@@ -7,10 +7,10 @@ import SectionHeading from '../SectionHeading';
 const faqs = [
   { q: 'How long does a comprehensive eye test take at Eylux?', a: 'A typical Eylux consultation lasts 30–45 minutes. We include computerized refraction, retinal screening, ocular health checks and a styling consultation if you are also choosing frames.' },
   { q: 'Do you carry the new Ray-Ban Meta AI glasses?', a: 'Yes, the boutique stocks the latest Ray-Ban Meta and Oakley Meta AI smart glasses. Walk in for a personal demonstration of the camera, voice assistant and audio features.' },
-  { q: 'Which premium lens brands do you offer?', a: 'We are authorized partners of Essilor, Hoya and Zeiss — covering progressive, blue-cut, photochromic, anti-glare and high-index lenses for every prescription.' },
+  { q: 'Which premium lens brands do you offer?', a: 'We are authorized partners of Essilor, Hoya and Zeiss - covering progressive, blue-cut, photochromic, anti-glare and high-index lenses for every prescription.' },
   { q: 'Do you specialise in eye tests for children?', a: 'Absolutely. We offer paediatric eye assessments with kid-friendly equipment and a curated catalog of durable, fashion-forward children\'s frames.' },
   { q: 'Where are you located and what are your hours?', a: 'Eylux Eye Care is located at Rohan Plaza, DP Road in Keshav Nagar, Hadapsar, Pune. We are open every day from 11:00 AM to 9:00 PM, including weekends.' },
-  { q: 'Can I book an appointment over WhatsApp?', a: 'Yes — tap the WhatsApp button anywhere on this site and our team will confirm your slot within minutes during business hours.' },
+  { q: 'Can I book an appointment over WhatsApp?', a: 'Yes - tap the WhatsApp button anywhere on this site and our team will confirm your slot within minutes during business hours.' },
 ];
 
 const faqSchema = {

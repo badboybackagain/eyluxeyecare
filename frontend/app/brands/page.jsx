@@ -3,7 +3,7 @@ import SectionHeading from '../../components/SectionHeading';
 import FinalCTA from '../../components/home/FinalCTA';
 
 export const metadata = {
-  title: 'Premium Eyewear Brands at Eylux — Hadapsar, Pune',
+  title: 'Premium Eyewear Brands at Eylux - Hadapsar, Pune',
   description: 'Authorized stockist of Ray-Ban, Oakley, Vogue, Coach, Tommy Hilfiger, Emporio Armani, Ralph Lauren, IDEE, Essilor, Hoya and Zeiss in Hadapsar, Pune.',
 };
 
@@ -29,7 +29,7 @@ export default function BrandsPage() {
       <PageHero
         eyebrow="Brands"
         title={<>The houses we proudly <span className="gold-text">represent.</span></>}
-        subtitle="Every brand on our wall is hand-picked, authorized and authenticated. Forty+ luxury and contemporary names — under one boutique roof."
+        subtitle="Every brand on our wall is hand-picked, authorized and authenticated. Forty+ luxury and contemporary names - under one boutique roof."
         image="https://images.unsplash.com/photo-1525786210598-d527194d3e9a?crop=entropy&cs=srgb&fm=jpg&w=1800&q=85"
       />
 

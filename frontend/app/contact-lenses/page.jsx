@@ -4,7 +4,7 @@ import FinalCTA from '../../components/home/FinalCTA';
 import { Droplets, Sun, Heart, Shield } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact Lenses in Hadapsar — Daily, Monthly & Toric Fitting',
+  title: 'Contact Lenses in Hadapsar - Daily, Monthly & Toric Fitting',
   description: 'Premium contact lenses by Acuvue, Bausch+Lomb and CooperVision. Daily disposables, monthly, toric and coloured lenses fitted by specialists in Hadapsar, Pune.',
 };
 

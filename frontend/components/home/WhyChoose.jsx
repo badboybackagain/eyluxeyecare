@@ -4,12 +4,12 @@ import { ShieldCheck, Award, Users, GraduationCap, HeartHandshake, Sparkles } fr
 import SectionHeading from '../SectionHeading';
 
 const items = [
-  { icon: ShieldCheck, title: 'Advanced diagnostic equipment', desc: 'Computerized refraction, slit-lamp examination and retinal imaging — accurate to a fraction of a dioptre.' },
+  { icon: ShieldCheck, title: 'Advanced diagnostic equipment', desc: 'Computerized refraction, slit-lamp examination and retinal imaging - accurate to a fraction of a dioptre.' },
   { icon: GraduationCap, title: 'Certified opticians', desc: 'Our optometrists are trained by Essilor, Zeiss and Hoya for the most demanding prescriptions.' },
-  { icon: Award, title: 'Authentic premium brands', desc: 'Every frame and lens is sourced from authorized distributors — never counterfeits, never compromises.' },
+  { icon: Award, title: 'Authentic premium brands', desc: 'Every frame and lens is sourced from authorized distributors - never counterfeits, never compromises.' },
   { icon: HeartHandshake, title: 'Personalised consultation', desc: 'Unhurried 45-minute appointments. We listen to your lifestyle before we ever measure your eyes.' },
   { icon: Sparkles, title: 'Fashion + vision expertise', desc: 'Style-led frame selection that balances facial geometry, complexion and personal aesthetic.' },
-  { icon: Users, title: 'Family-friendly boutique', desc: 'A space where children, parents and seniors all feel cared for — three generations of trust.' },
+  { icon: Users, title: 'Family-friendly boutique', desc: 'A space where children, parents and seniors all feel cared for - three generations of trust.' },
 ];
 
 export default function WhyChoose() {

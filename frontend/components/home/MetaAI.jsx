@@ -60,7 +60,7 @@ export default function MetaAI() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="mt-8 max-w-xl text-ink/70 text-base md:text-lg leading-relaxed"
             >
-              Designed in collaboration with Ray-Ban and Oakley, the new generation of Meta AI eyewear lets you capture, listen, call and ask — without ever reaching for your phone. Try them on at our boutique.
+              Designed in collaboration with Ray-Ban and Oakley, the new generation of Meta AI eyewear lets you capture, listen, call and ask - without ever reaching for your phone. Try them on at our boutique.
             </motion.p>
 
             <div className="mt-10 grid grid-cols-2 gap-3">

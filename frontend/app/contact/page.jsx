@@ -3,7 +3,7 @@ import ContactForm from '../../components/ContactForm';
 import { MapPin, Phone, Mail, Clock, MessageCircle, ArrowUpRight } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact Eylux Eye Care — Book Your Eye Test in Hadapsar',
+  title: 'Contact Eylux Eye Care - Book Your Eye Test in Hadapsar',
   description: 'Book an eye test, request a frame consultation or a Meta AI glasses demo. Visit Eylux Eye Care in Keshav Nagar, Hadapsar, Pune. WhatsApp & call available.',
 };
 

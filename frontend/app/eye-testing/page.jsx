@@ -4,7 +4,7 @@ import FinalCTA from '../../components/home/FinalCTA';
 import { ScanEye, Brain, Activity, Baby, Layers, Eye } from 'lucide-react';
 
 export const metadata = {
-  title: 'Digital Eye Testing in Hadapsar — Precision Vision Diagnostics',
+  title: 'Digital Eye Testing in Hadapsar - Precision Vision Diagnostics',
   description: 'Comprehensive computerized eye testing in Hadapsar, Pune. Refraction, retinal screening, kids eye tests and progressive lens consultations at Eylux Eye Care.',
 };
 
@@ -12,7 +12,7 @@ const tests = [
   { icon: ScanEye, title: 'Computerized refraction', desc: 'Auto-refractometer readings accurate to 0.25 dioptre, refined by manual phoropter verification.' },
   { icon: Layers, title: 'Retinal screening', desc: 'Fundus imaging to detect early signs of diabetic retinopathy, hypertensive changes and macular health.' },
   { icon: Activity, title: 'Slit-lamp examination', desc: 'High-magnification assessment of cornea, conjunctiva, iris and lens for clinical-grade ocular health.' },
-  { icon: Brain, title: 'Binocular vision check', desc: 'Coordination, focusing and eye-muscle balance — essential for IT professionals and avid readers.' },
+  { icon: Brain, title: 'Binocular vision check', desc: 'Coordination, focusing and eye-muscle balance - essential for IT professionals and avid readers.' },
   { icon: Baby, title: 'Paediatric assessment', desc: 'Child-friendly testing using picture optotypes, retinoscopy and cycloplegic refraction when needed.' },
   { icon: Eye, title: 'Progressive lens consultation', desc: 'Detailed lifestyle questionnaire and frame measurements to recommend the right corridor and design.' },
 ];
@@ -41,7 +41,7 @@ export default function EyeTestingPage() {
 
       <section className="py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
-          <SectionHeading eyebrow="What's included" title={<>A complete <span className="gold-text">visual workup.</span></>} subtitle="Every test goes well beyond a prescription — we screen for conditions you may not even know to ask about." />
+          <SectionHeading eyebrow="What's included" title={<>A complete <span className="gold-text">visual workup.</span></>} subtitle="Every test goes well beyond a prescription - we screen for conditions you may not even know to ask about." />
 
           <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {tests.map((t) => {

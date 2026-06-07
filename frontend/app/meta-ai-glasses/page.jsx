@@ -15,7 +15,7 @@ const features = [
   { icon: Music, title: 'Open-ear Spatial Audio', desc: 'Crystal-clear music without blocking out the world.' },
   { icon: Phone, title: 'Calls & Messages', desc: 'Take WhatsApp calls and messages without touching your phone.' },
   { icon: Battery, title: 'All-day Battery', desc: 'Up to 32 hours with the included charging case.' },
-  { icon: Cloud, title: 'Live to Instagram & FB', desc: 'Go live from your eyes — point of view, in real time.' },
+  { icon: Cloud, title: 'Live to Instagram & FB', desc: 'Go live from your eyes - point of view, in real time.' },
 ];
 
 const variants = [
@@ -76,7 +76,7 @@ export default function MetaAIPage() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-ink/75 text-lg leading-relaxed">
-            Capture, listen, call and converse — without ever reaching for your phone. Now stocked at Eylux Eye Care, Hadapsar. Walk in for a private demonstration.
+            Capture, listen, call and converse - without ever reaching for your phone. Now stocked at Eylux Eye Care, Hadapsar. Walk in for a private demonstration.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

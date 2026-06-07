@@ -23,7 +23,7 @@ const fraunces = Fraunces({
 export const metadata = {
   metadataBase: new URL('https://eyluxeyecare.com'),
   title: {
-    default: 'Eylux Eye Care — Luxury Eyewear & Precision Vision in Hadapsar, Pune',
+    default: 'Eylux Eye Care - Luxury Eyewear & Precision Vision in Hadapsar, Pune',
     template: '%s | Eylux Eye Care',
   },
   description:
@@ -37,14 +37,14 @@ export const metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Eylux Eye Care',
-    title: 'Eylux Eye Care — Luxury Eyewear & Precision Vision',
+    title: 'Eylux Eye Care - Luxury Eyewear & Precision Vision',
     description:
       'Premium optical boutique in Hadapsar. Digital eye tests, branded frames, progressive lenses, Meta AI smart glasses.',
     images: ['https://images.unsplash.com/photo-1618677366787-9727aacca7ea?w=1200'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eylux Eye Care — Luxury Eyewear & Precision Vision',
+    title: 'Eylux Eye Care - Luxury Eyewear & Precision Vision',
     description: 'Premium optical boutique in Hadapsar, Pune.',
   },
   robots: { index: true, follow: true },

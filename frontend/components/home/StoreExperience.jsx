@@ -17,7 +17,7 @@ export default function StoreExperience() {
         <SectionHeading
           eyebrow="The boutique"
           title={<>A space where <span className="gold-text">precision meets poise.</span></>}
-          subtitle="Walk into a quietly luxurious studio in Keshav Nagar — warm lighting, velvet displays and unhurried consultations. The way eyewear shopping should always have felt."
+          subtitle="Walk into a quietly luxurious studio in Keshav Nagar - warm lighting, velvet displays and unhurried consultations. The way eyewear shopping should always have felt."
         />
 
         <div className="mt-16 grid grid-cols-12 gap-4 md:gap-5">

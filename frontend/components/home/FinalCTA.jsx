@@ -37,7 +37,7 @@ export default function FinalCTA() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-8 max-w-2xl mx-auto text-ink/70 text-base md:text-lg"
         >
-          Walk into our Hadapsar boutique for a complimentary consultation. We&apos;ll measure, advise and craft the perfect pair — together.
+          Walk into our Hadapsar boutique for a complimentary consultation. We&apos;ll measure, advise and craft the perfect pair - together.
         </motion.p>
 
         <motion.div
