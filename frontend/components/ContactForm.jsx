@@ -28,12 +28,7 @@ export default function ContactForm() {
     setStatus('loading');
     setErrorMsg('');
     try {
-      const url = process.env.NEXT_PUBLIC_WEBHOOK_URL;
-      if (!url) {
-        setStatus('success');
-        return;
-      }
-      const res = await fetch(url, {
+      const res = await fetch('/api/appointment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -42,7 +37,12 @@ export default function ContactForm() {
           ...form,
         }),
       });
-      if (!res.ok) throw new Error('Submission failed');
+      
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || 'Submission failed');
+      }
+      
       setStatus('success');
       setForm({ name: '', email: '', phone: '', service: services[0], date: '', message: '' });
     } catch (err) {
