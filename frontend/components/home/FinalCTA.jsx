@@ -50,10 +50,10 @@ export default function FinalCTA() {
           <Link href="/contact" className="btn-gold" data-testid="final-cta-book-btn">
             Book Eye Test <ArrowUpRight className="h-4 w-4" />
           </Link>
-          <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999'}`} target="_blank" rel="noopener noreferrer" className="btn-ghost" data-testid="final-cta-whatsapp-btn">
+          <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919960750915'}`} target="_blank" rel="noopener noreferrer" className="btn-ghost" data-testid="final-cta-whatsapp-btn">
             <MessageCircle className="h-4 w-4" /> WhatsApp
           </a>
-          <a href="tel:+919999999999" className="btn-ghost" data-testid="final-cta-call-btn">
+          <a href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER || '+919960750915'}`} className="btn-ghost" data-testid="final-cta-call-btn">
             <Phone className="h-4 w-4" /> Call
           </a>
         </motion.div>

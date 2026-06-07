@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Eye, Instagram, Facebook, MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export default function Footer() {
@@ -9,11 +10,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
-            <Link href="/" className="flex items-center gap-3">
-              <span className="h-10 w-10 rounded-full bg-gradient-to-br from-gold-light via-gold to-gold-dark grid place-items-center">
-                <Eye className="h-5 w-5 text-black" strokeWidth={2.5} />
-              </span>
-              <span className="font-display text-2xl text-cream">Eylux <span className="gold-text-light">Eye Care</span></span>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Eylux Eye Care"
+                width={100}
+                height={43}
+                className="object-contain"
+              />
             </Link>
             <p className="mt-6 max-w-md text-cream/65 text-sm leading-relaxed">
               A boutique optical experience in Hadapsar, Pune — pairing meticulous eye care with the world&apos;s finest eyewear houses.
@@ -60,11 +64,11 @@ export default function Footer() {
             <p className="uppercase tracking-[0.3em] text-xs text-cream/50">Visit the boutique</p>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <MapPin className="h-4 w-4 mt-0.5 text-gold" />
-              <p>Keshav Nagar, Hadapsar<br/>Pune, Maharashtra 411028</p>
+              <p>Shop No-24, Rohan Plaza, DP Rd,<br/>Keshav Nagar, Hadapsar,<br/>Pune, Maharashtra 411028</p>
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Phone className="h-4 w-4 mt-0.5 text-gold" />
-              <a href="tel:+919999999999" className="hover:text-cream">+91 99999 99999</a>
+              <a href="tel:+919960750915" className="hover:text-cream">+91 99607 50915</a>
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Mail className="h-4 w-4 mt-0.5 text-gold" />
@@ -72,7 +76,7 @@ export default function Footer() {
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Clock className="h-4 w-4 mt-0.5 text-gold" />
-              <p>Mon–Sun · 10:00 AM – 9:30 PM</p>
+              <p>11:00 AM – 9:00 PM (Every day)</p>
             </div>
             <div className="flex items-center gap-3 pt-4">
               <a href="#" aria-label="Instagram" className="p-2.5 rounded-full border border-cream/15 bg-cream/5 hover:border-gold/50 hover:bg-gold/10 text-cream transition">

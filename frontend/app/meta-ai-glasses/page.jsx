@@ -6,7 +6,8 @@ import Image from 'next/image';
 import { Camera, Mic, Music, Phone, Sparkles, Zap, Battery, Cloud } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const SMART = 'https://images.unsplash.com/photo-1562330744-0e81c1e9dd88?crop=entropy&cs=srgb&fm=jpg&w=1800&q=85';
+const SMART_HERO = '/rayban_meta_hero.png';
+const SMART_PRODUCT = '/rayban_meta_product.png';
 
 const features = [
   { icon: Camera, title: '12 MP Ultra-wide Camera', desc: 'Capture photos and 1080p video, completely hands-free.' },
@@ -18,8 +19,34 @@ const features = [
 ];
 
 const variants = [
-  { name: 'Ray-Ban | Meta', desc: 'Iconic Wayfarer and Headliner silhouettes. Classic, timeless, AI-enabled.', tag: 'Most popular' },
-  { name: 'Oakley | Meta HSTN', desc: 'Performance heritage meets Meta AI. Built for athletes, made for legends.', tag: 'New 2025' },
+  {
+    name: 'Ray-Ban | Meta',
+    desc: 'The ultimate fusion of iconic style and smart technology. Choose from classic Wayfarer or retro-modern Headliner designs for seamless daily capture and hands-free AI help.',
+    tag: 'Most Popular',
+    image: '/rayban_meta_product.png',
+    specs: {
+      silhouettes: 'Wayfarer & Headliner',
+      material: 'Glossy/Matte Acetate',
+      camera: '12 MP Ultra-wide (1080p)',
+      lenses: 'Transitions® Gen S, Polarized',
+      audio: 'Open-ear Spatial Speakers',
+      control: 'Touchpad & voice commands'
+    }
+  },
+  {
+    name: 'Oakley | Meta HSTN',
+    desc: 'High-performance eyewear meets state-of-the-art AI. Featuring Oakley\'s signature active heritage, geometric keyhole bridge, and durable build designed for movement and outdoor sport.',
+    tag: 'Active & Sport',
+    image: '/oakley_meta_product.png',
+    specs: {
+      silhouettes: 'HSTN round profile',
+      material: 'O-Matter™ (Ultra-light)',
+      camera: '12 MP (Up to 3K POV Video)',
+      lenses: 'Prizm™ contrast-optimizing',
+      audio: 'Directional Speakers + 5 Mics',
+      control: 'Intuitive touch & voice'
+    }
+  }
 ];
 
 export default function MetaAIPage() {
@@ -27,7 +54,7 @@ export default function MetaAIPage() {
     <>
       <section className="relative pt-40 pb-24 md:pt-48 md:pb-32 overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <Image src={SMART} alt="" fill className="object-cover opacity-40" priority sizes="100vw" />
+          <Image src={SMART_HERO} alt="" fill className="object-cover opacity-40" priority sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/20 via-bg-primary/70 to-bg-primary" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.18),transparent_55%)]" />
           <motion.div
@@ -54,7 +81,7 @@ export default function MetaAIPage() {
 
           <div className="mt-10 flex flex-wrap gap-4">
             <a href="/contact" className="btn-gold" data-testid="meta-page-book-btn">Book Private Demo</a>
-            <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999'}`} className="btn-ghost" data-testid="meta-page-wa-btn">WhatsApp Inquiry</a>
+            <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919960750915'}`} className="btn-ghost" data-testid="meta-page-wa-btn">WhatsApp Inquiry</a>
           </div>
         </div>
       </section>
@@ -87,18 +114,73 @@ export default function MetaAIPage() {
       <section className="py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading align="center" eyebrow="The collection" title={<>Two icons. <span className="gold-text">One intelligence.</span></>} />
-          <div className="mt-14 grid md:grid-cols-2 gap-5">
+          <div className="mt-14 grid md:grid-cols-2 gap-8">
             {variants.map((v) => (
-              <div key={v.name} className="relative rounded-[2rem] overflow-hidden glass-strong aspect-[5/4]">
-                <Image src={SMART} alt={v.name} fill className="object-cover" sizes="(min-width:768px) 50vw, 100vw" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-                <div className="absolute top-5 right-5 glass-strong rounded-full px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-gold">{v.tag}</div>
-                <div className="absolute bottom-7 left-7 right-7">
-                  <p className="font-display text-3xl md:text-4xl">{v.name}</p>
-                  <p className="mt-3 text-sm text-ink/75 max-w-sm">{v.desc}</p>
+              <div key={v.name} className="rounded-[2.5rem] overflow-hidden glass hover:border-gold/30 transition duration-500 flex flex-col">
+                <div className="relative aspect-[4/3] w-full">
+                  <Image src={v.image} alt={v.name} fill className="object-cover" sizes="(min-width:768px) 50vw, 100vw" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-bg-surface via-transparent to-transparent opacity-20" />
+                  <div className="absolute top-5 right-5 glass-strong rounded-full px-4 py-1.5 text-[10px] uppercase tracking-[0.3em] text-gold">{v.tag}</div>
+                </div>
+                <div className="p-8 md:p-10 flex-1 flex flex-col">
+                  <h3 className="font-display text-3xl md:text-4xl text-ink">{v.name}</h3>
+                  <p className="mt-4 text-sm text-ink-soft leading-relaxed flex-1">{v.desc}</p>
+                  
+                  <div className="mt-8 pt-8 border-t border-ink/10 space-y-4">
+                    <h4 className="text-[10px] uppercase tracking-[0.25em] text-gold font-semibold">Specifications</h4>
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-4 text-xs">
+                      {Object.entries(v.specs).map(([label, val]) => (
+                        <div key={label} className="space-y-1">
+                          <span className="text-ink-muted uppercase tracking-wider text-[9px] block">{label}</span>
+                          <p className="text-ink font-medium">{val}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison Section */}
+      <section className="py-24 md:py-32 bg-bg-surface/30 border-t border-ink/10">
+        <div className="mx-auto max-w-7xl px-6">
+          <SectionHeading
+            align="center"
+            eyebrow="Head to Head"
+            title={<>Compare <span className="gold-text">Ray-Ban Meta</span> vs <span className="gold-text">Oakley Meta</span></>}
+          />
+          
+          <div className="mt-16 overflow-x-auto">
+            <table className="w-full text-left border-collapse min-w-[600px] text-sm">
+              <thead>
+                <tr className="border-b border-ink/10">
+                  <th className="py-4 font-display text-lg text-ink font-semibold w-1/3">Feature</th>
+                  <th className="py-4 font-display text-lg text-ink font-semibold w-1/3">Ray-Ban | Meta</th>
+                  <th className="py-4 font-display text-lg text-ink font-semibold w-1/3">Oakley | Meta HSTN</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { feature: 'Best For', rayban: 'Everyday wear, lifestyle, classic style', oakley: 'Active sports, outdoor adventures, athletic fit' },
+                  { feature: 'Frame Materials', rayban: 'Premium glossy/matte acetate frames', oakley: 'Proprietary O-Matter™ (high durability, low weight)' },
+                  { feature: 'Silhouettes & Styles', rayban: 'Wayfarer (square) & Headliner (round-oval)', oakley: 'HSTN (classic round frame with geometric bridge)' },
+                  { feature: 'Lens Specialization', rayban: 'Transitions® Gen S, Polarized, Blue-Light Filter', oakley: 'Oakley Prizm™ (color & contrast optimization)' },
+                  { feature: 'Video Quality', rayban: '1080p hands-free video recording (clip limit 3 min)', oakley: 'Enhanced 3K resolution video recording at 30 fps' },
+                  { feature: 'Water/Dust Resistance', rayban: 'IPX4 splash-resistant', oakley: 'IPX4 splash-resistant (sweatproof)' },
+                  { feature: 'Storage Capacity', rayban: '32 GB internal (1000+ photos / 100+ videos)', oakley: '32 GB internal (1000+ photos / 100+ videos)' },
+                  { feature: 'Charging Case', rayban: 'Up to 32 hours with compact charging case', oakley: 'Up to 32 hours with high-durability case' },
+                ].map((row, idx) => (
+                  <tr key={idx} className="border-b border-ink/5 hover:bg-ink/[0.02] transition-colors">
+                    <td className="py-4 pr-4 font-medium text-ink">{row.feature}</td>
+                    <td className="py-4 pr-4 text-ink-soft">{row.rayban}</td>
+                    <td className="py-4 text-ink-soft">{row.oakley}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

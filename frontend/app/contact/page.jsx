@@ -8,8 +8,8 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  const phone = process.env.NEXT_PUBLIC_PHONE_NUMBER || '+919999999999';
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999';
+  const phone = process.env.NEXT_PUBLIC_PHONE_NUMBER || '+91 99607 50915';
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919960750915';
 
   return (
     <>
@@ -36,8 +36,8 @@ export default function ContactPage() {
               <p className="uppercase tracking-[0.3em] text-[11px] text-gold">The boutique</p>
               <h3 className="mt-3 font-display text-2xl">Eylux Eye Care</h3>
               <ul className="mt-6 space-y-4 text-sm text-ink/75">
-                <li className="flex items-start gap-3"><MapPin className="h-4 w-4 mt-0.5 text-gold" />Keshav Nagar, Hadapsar<br/>Pune, Maharashtra 411028</li>
-                <li className="flex items-start gap-3"><Clock className="h-4 w-4 mt-0.5 text-gold" />Mon–Sun · 10:00 AM – 9:30 PM</li>
+                <li className="flex items-start gap-3"><MapPin className="h-4 w-4 mt-0.5 text-gold" />Shop No-24, Rohan Plaza, DP Rd, near Sidheshwar Foods, opp. Holystico Astrana, Keshav Nagar, Hadapsar, Pune, Maharashtra 411028</li>
+                <li className="flex items-start gap-3"><Clock className="h-4 w-4 mt-0.5 text-gold" />11:00 AM – 9:00 PM (Every day)</li>
                 <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><a href={`tel:${phone}`} className="hover:text-ink" data-testid="contact-call-link">{phone}</a></li>
                 <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><a href="mailto:hello@eyluxeyecare.com" className="hover:text-ink">hello@eyluxeyecare.com</a></li>
               </ul>
@@ -58,11 +58,11 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <a href="https://www.google.com/maps/search/?api=1&query=Keshav+Nagar+Hadapsar+Pune" target="_blank" rel="noopener noreferrer" className="block rounded-3xl glass overflow-hidden hover:border-gold/30 transition" data-testid="contact-directions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Eylux+Eyecare+Hadapsar+Pune" target="_blank" rel="noopener noreferrer" className="block rounded-3xl glass overflow-hidden hover:border-gold/30 transition" data-testid="contact-directions">
               <div className="relative h-56">
                 <iframe
                   title="Eylux Eye Care location"
-                  src="https://www.google.com/maps?q=Keshav+Nagar+Hadapsar+Pune&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.564861366747!2d73.940276!3d18.5103929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c326e8b3ec6b%3A0x2ae01fc291961b04!2sEylux%20Eyecare!5e0!3m2!1sen!2sin!4v1716282000000!5m2!1sen!2sin"
                   className="absolute inset-0 w-full h-full grayscale contrast-125"
                   loading="lazy"
                 />

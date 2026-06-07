@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { Mic, Camera, Music, Phone, Sparkles } from 'lucide-react';
 
-const SMART_GLASSES = 'https://images.unsplash.com/photo-1562330744-0e81c1e9dd88?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85';
+const SMART_GLASSES = '/rayban_meta_product.png';
 
 const features = [
   { icon: Camera, label: 'Built-in 12MP Camera' },

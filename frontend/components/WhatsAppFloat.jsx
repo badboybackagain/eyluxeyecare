@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppFloat() {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999';
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919960750915';
   const message = encodeURIComponent("Hi Eylux, I'd like to book an eye test.");
   return (
     <motion.a

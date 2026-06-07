@@ -9,10 +9,10 @@ export const metadata = {
 };
 
 const collections = [
-  { title: 'Optical Frames', subtitle: 'For everyday elegance', image: 'https://images.unsplash.com/photo-1525786210598-d527194d3e9a?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85', size: 'tall' },
-  { title: 'Designer Sunglasses', subtitle: 'Make a statement', image: 'https://images.unsplash.com/photo-1618677366787-9727aacca7ea?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85', size: 'wide' },
-  { title: 'Premium Acetate', subtitle: 'Handcrafted detail', image: 'https://images.unsplash.com/photo-1530432999454-016a47c78af3?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85', size: 'square' },
-  { title: 'Titanium & Rimless', subtitle: 'Featherweight precision', image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?crop=entropy&cs=srgb&fm=jpg&w=1400&q=85', size: 'square' },
+  { title: 'Optical Frames', subtitle: 'For everyday elegance', image: 'https://source.unsplash.com/900x900/?glasses,frames', size: 'tall' },
+  { title: 'Designer Sunglasses', subtitle: 'Make a statement', image: 'https://source.unsplash.com/900x900/?sunglasses', size: 'wide' },
+  { title: 'Premium Acetate', subtitle: 'Handcrafted detail', image: 'https://source.unsplash.com/900x900/?eyewear', size: 'square' },
+  { title: 'Titanium & Rimless', subtitle: 'Featherweight precision', image: 'https://source.unsplash.com/900x900/?rimless,glasses', size: 'square' },
 ];
 
 const houses = ['Ray-Ban', 'Oakley', 'Vogue', 'Coach', 'Emporio Armani', 'Ralph Lauren', 'Brooks Brothers', 'Tommy Hilfiger', 'IDEE'];

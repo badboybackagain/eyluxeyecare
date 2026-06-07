@@ -1,10 +1,21 @@
 'use client';
+import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 import SectionHeading from '../SectionHeading';
 
-const brands = [
-  'Essilor', 'Hoya', 'Zeiss', 'Ray-Ban', 'Oakley', 'Vogue',
-  'IDEE', 'Ralph Lauren', 'Brooks Brothers', 'Coach', 'Tommy Hilfiger', 'Emporio Armani',
+const brandLogos = [
+  { name: 'Essilor', src: '/logos/essilor.svg' },
+  { name: 'Hoya', src: '/logos/hoya.svg' },
+  { name: 'Zeiss', src: '/logos/zeiss.svg' },
+  { name: 'Ray-Ban', src: '/logos/rayban.svg' },
+  { name: 'Oakley', src: '/logos/oakley.svg' },
+  { name: 'Vogue', src: '/logos/vogue.svg' },
+  { name: 'IDEE', src: '/logos/idee.svg' },
+  { name: 'Ralph Lauren', src: '/logos/ralph_lauren.svg' },
+  { name: 'Brooks Brothers', src: '/logos/brooks_brothers.svg' },
+  { name: 'Coach', src: '/logos/coach.svg' },
+  { name: 'Tommy Hilfiger', src: '/logos/tommy_hilfiger.svg' },
+  { name: 'Emporio Armani', src: '/logos/armani.svg' },
 ];
 
 export default function BrandMarquee() {
@@ -23,22 +34,34 @@ export default function BrandMarquee() {
         <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-bg-primary to-transparent z-10" />
 
         <Marquee speed={40} gradient={false} pauseOnHover>
-          {brands.map((b) => (
-            <div key={b} className="mx-8 md:mx-14">
-              <span className="font-display text-3xl md:text-5xl text-ink/55 hover:text-ink transition-colors duration-500 tracking-tight whitespace-nowrap">
-                {b}
-              </span>
+          {brandLogos.map((logo) => (
+            <div key={logo.name} className="mx-8 md:mx-14">
+              <div className="relative h-10 md:h-12 w-32 md:w-40 flex items-center justify-center">
+                <Image
+                  src={logo.src}
+                  alt={logo.name}
+                  fill
+                  sizes="(min-width: 768px) 160px, 128px"
+                  className="object-contain filter grayscale contrast-[0.9] opacity-60 hover:opacity-100 hover:grayscale-0 transition-all duration-500"
+                />
+              </div>
             </div>
           ))}
         </Marquee>
 
         <div className="mt-10">
-          <Marquee speed={30} gradient={false} direction="right">
-            {brands.slice().reverse().map((b) => (
-              <div key={'r-' + b} className="mx-8 md:mx-14">
-                <span className="font-display text-2xl md:text-4xl text-white/25 hover:text-gold transition-colors duration-500 tracking-tight whitespace-nowrap italic">
-                  {b}
-                </span>
+          <Marquee speed={30} gradient={false} direction="right" pauseOnHover>
+            {brandLogos.slice().reverse().map((logo) => (
+              <div key={'r-' + logo.name} className="mx-8 md:mx-14">
+                <div className="relative h-8 md:h-10 w-28 md:w-36 flex items-center justify-center">
+                  <Image
+                    src={logo.src}
+                    alt={logo.name}
+                    fill
+                    sizes="(min-width: 768px) 144px, 112px"
+                    className="object-contain filter grayscale contrast-[0.8] opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-500"
+                  />
+                </div>
               </div>
             ))}
           </Marquee>

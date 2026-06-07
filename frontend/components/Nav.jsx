@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Eye } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -45,13 +46,15 @@ export default function Nav() {
           <div className={`flex items-center justify-between rounded-full px-5 py-2.5 transition-all duration-500 ${
             scrolled ? 'glass-strong' : 'glass'
           }`}>
-            <Link href="/" className="flex items-center gap-2.5 group" data-testid="logo-link">
-              <span className="relative h-9 w-9 rounded-full bg-gradient-to-br from-gold-light via-gold to-gold-dark grid place-items-center">
-                <Eye className="h-4 w-4 text-black" strokeWidth={2.5} />
-              </span>
-              <span className="font-display text-lg tracking-tight">
-                Eylux<span className="gold-text"> Eye Care</span>
-              </span>
+            <Link href="/" className="flex items-center group" data-testid="logo-link">
+              <Image
+                src="/logo.png"
+                alt="Eylux Eye Care"
+                width={84}
+                height={36}
+                priority
+                className="object-contain filter brightness-0"
+              />
             </Link>
 
             <nav className="hidden lg:flex items-center gap-1" aria-label="Primary">
@@ -137,15 +140,15 @@ export default function Nav() {
               >
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Visit</p>
-                  <p className="mt-2 text-ink/90">Keshav Nagar, Hadapsar<br/>Pune, Maharashtra 411028</p>
+                  <p className="mt-2 text-ink/90">Shop No-24, Rohan Plaza, DP Rd,<br/>Keshav Nagar, Hadapsar,<br/>Pune, Maharashtra 411028</p>
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Hours</p>
-                  <p className="mt-2 text-ink/90">Mon–Sun · 10:00 AM – 9:30 PM</p>
+                  <p className="mt-2 text-ink/90">11:00 AM – 9:00 PM (Every day)</p>
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Contact</p>
-                  <p className="mt-2 text-ink/90">+91 99999 99999<br/>hello@eyluxeyecare.com</p>
+                  <p className="mt-2 text-ink/90">+91 99607 50915<br/>hello@eyluxeyecare.com</p>
                 </div>
                 <Link href="/contact" className="btn-gold inline-flex mt-4" data-testid="menu-book-btn">Book Eye Test</Link>
               </motion.div>

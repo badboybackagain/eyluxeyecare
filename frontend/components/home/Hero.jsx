@@ -5,8 +5,8 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { ArrowUpRight, Sparkles } from 'lucide-react';
 
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1618677366787-9727aacca7ea?crop=entropy&cs=srgb&fm=jpg&w=2000&q=85';
-const SIDE_IMAGE = 'https://images.unsplash.com/photo-1530432999454-016a47c78af3?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85';
+const HERO_IMAGE = '/rayban_meta_hero.png';
+const SIDE_IMAGE = '/rayban_meta_product.png';
 
 export default function Hero() {
   const ref = useRef(null);
@@ -80,7 +80,7 @@ export default function Hero() {
                 Book Eye Test <ArrowUpRight className="h-4 w-4" />
               </Link>
               <a
-                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919999999999'}`}
+                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919960750915'}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost"
