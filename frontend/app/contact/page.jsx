@@ -39,7 +39,7 @@ export default function ContactPage() {
                 <li className="flex items-start gap-3"><MapPin className="h-4 w-4 mt-0.5 text-gold" />Shop No-24, Rohan Plaza, DP Rd, near Sidheshwar Foods, opp. Holystico Astrana, Keshav Nagar, Hadapsar, Pune, Maharashtra 411028</li>
                 <li className="flex items-start gap-3"><Clock className="h-4 w-4 mt-0.5 text-gold" />11:00 AM – 9:00 PM (Every day)</li>
                 <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><a href={`tel:${phone}`} className="hover:text-ink" data-testid="contact-call-link">{phone}</a></li>
-                <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><a href="mailto:hello@eyluxeyecare.com" className="hover:text-ink">hello@eyluxeyecare.com</a></li>
+                <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><a href="mailto:eyluxeyecare@gmail.com" className="hover:text-ink">eyluxeyecare@gmail.com</a></li>
               </ul>
             </div>
 

@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Mail className="h-4 w-4 mt-0.5 text-gold" />
-              <a href="mailto:hello@eyluxeyecare.com" className="hover:text-cream">hello@eyluxeyecare.com</a>
+              <a href="mailto:eyluxeyecare@gmail.com" className="hover:text-cream">eyluxeyecare@gmail.com</a>
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Clock className="h-4 w-4 mt-0.5 text-gold" />

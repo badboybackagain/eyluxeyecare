@@ -148,7 +148,7 @@ export default function Nav() {
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Contact</p>
-                  <p className="mt-2 text-ink/90">+91 99607 50915<br/>hello@eyluxeyecare.com</p>
+                  <p className="mt-2 text-ink/90">+91 99607 50915<br/>eyluxeyecare@gmail.com</p>
                 </div>
                 <Link href="/contact" className="btn-gold inline-flex mt-4" data-testid="menu-book-btn">Book Eye Test</Link>
               </motion.div>
