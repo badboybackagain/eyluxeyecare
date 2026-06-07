@@ -1,7 +1,9 @@
 'use client';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+import dynamic from 'next/dynamic';
 import SectionHeading from '../SectionHeading';
+
+const Marquee = dynamic(() => import('react-fast-marquee'), { ssr: false });
 
 const brandLogos = [
   { name: 'Essilor', src: '/logos/essilor.svg' },

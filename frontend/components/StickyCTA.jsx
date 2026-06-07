@@ -8,7 +8,15 @@ export default function StickyCTA() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const handler = () => setVisible(window.scrollY > 600);
+    const threshold = 600;
+    const handler = () => {
+      const scrolled = window.scrollY;
+      setVisible((prev) => {
+        if (scrolled > threshold + 20) return true;
+        if (scrolled < threshold - 20) return false;
+        return prev;
+      });
+    };
     handler();
     window.addEventListener('scroll', handler, { passive: true });
     return () => window.removeEventListener('scroll', handler);

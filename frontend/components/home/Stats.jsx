@@ -44,10 +44,10 @@ export default function Stats() {
               transition={{ duration: 0.7, delay: i * 0.08 }}
               className="text-center md:text-left"
             >
-              <p className="font-display text-5xl md:text-6xl tracking-tight">
+              <p className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight tabular-nums">
                 <Counter to={s.value} suffix={s.suffix} />
               </p>
-              <p className="mt-3 text-xs md:text-sm uppercase tracking-[0.25em] text-ink/60">
+              <p className="mt-3 text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.15em] sm:tracking-[0.25em] text-ink/60">
                 {s.label}
               </p>
             </motion.div>
