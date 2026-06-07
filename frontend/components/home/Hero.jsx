@@ -41,13 +41,13 @@ export default function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs uppercase tracking-[0.25em] text-ink/75"
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-[10px] sm:text-xs uppercase tracking-[0.15em] sm:tracking-[0.25em] text-ink/75 flex-wrap"
             >
               <Sparkles className="h-3.5 w-3.5 text-gold" />
               Premium Optical Boutique · Hadapsar, Pune
             </motion.div>
 
-            <h1 className="mt-8 font-display tracking-tight leading-[0.92] text-5xl sm:text-6xl md:text-7xl lg:text-[6.5rem]">
+            <h1 className="mt-8 font-display tracking-tight leading-[0.95] text-4xl sm:text-5xl md:text-7xl lg:text-[6.5rem]">
               {['Luxury', 'Eyewear.', 'Precision', 'Vision.', 'Trusted', 'Eye', 'Care.'].map((word, i) => (
                 <motion.span
                   key={i}
@@ -94,7 +94,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.4 }}
-              className="mt-16 flex items-center gap-6 text-xs uppercase tracking-[0.25em] text-ink/55"
+              className="mt-16 flex flex-wrap items-center gap-x-6 gap-y-3 text-xs uppercase tracking-[0.25em] text-ink/55"
             >
               <span>Essilor</span><span className="text-ink/25">·</span>
               <span>Zeiss</span><span className="text-ink/25">·</span>
