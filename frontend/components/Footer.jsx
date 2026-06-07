@@ -22,18 +22,6 @@ export default function Footer() {
             <p className="mt-6 max-w-md text-cream/65 text-sm leading-relaxed">
               A boutique optical experience in Hadapsar, Pune - pairing meticulous eye care with the world&apos;s finest eyewear houses.
             </p>
-            <div className="mt-8">
-              <p className="uppercase tracking-[0.3em] text-xs text-cream/50">Newsletter</p>
-              <form className="mt-3 flex items-center gap-3 border-b border-cream/15 py-2" onSubmit={(e) => e.preventDefault()}>
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="flex-1 bg-transparent outline-none text-cream placeholder:text-cream/45 py-2"
-                  data-testid="newsletter-email"
-                />
-                <button className="text-xs uppercase tracking-widest gold-text-light" data-testid="newsletter-submit">Subscribe →</button>
-              </form>
-            </div>
           </div>
 
           <div className="md:col-span-3">
