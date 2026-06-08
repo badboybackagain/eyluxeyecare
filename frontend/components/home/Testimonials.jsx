@@ -5,7 +5,7 @@ import SectionHeading from '../SectionHeading';
 
 const testimonials = [
   { name: 'Aarti Deshmukh', role: 'Working Professional, Hadapsar', text: 'I have visited many opticians in Pune but the precision and care at Eylux is unmatched. My progressive lenses feel like a natural extension of my eyes.' },
-  { name: 'Rohit Sharma', role: 'IT Engineer, Magarpatta', text: 'I spend 10+ hours on a screen daily. Eylux\'s blue-cut computer glasses changed my evenings - no more eye strain. The fitting consultation was world-class.' },
+  { name: 'Rohit Sharma', role: 'IT Engineer, Magarpatta', text: 'I spend 10+ hours on a screen daily. Eylux\'s blue-cut single vision glasses changed my evenings - no more eye strain. The fitting consultation was world-class.' },
   { name: 'Priya & Aanya', role: 'Mother & Daughter, Keshav Nagar', text: 'My 6-year-old usually fears clinics, but the team made her feel at ease. We left with the cutest frames and a smile.' },
   { name: 'Vikram Patil', role: 'Entrepreneur, Pune', text: 'I picked up the Ray-Ban Meta AI glasses from Eylux. Personal demo, honest advice, premium boutique experience. Worth every rupee.' },
   { name: 'Sneha Iyer', role: 'Fashion Designer', text: 'Eylux understands fashion as deeply as it understands vision. They paired me with a vintage acetate frame I would never have picked myself.' },

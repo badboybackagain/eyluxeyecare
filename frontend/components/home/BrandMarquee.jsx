@@ -6,7 +6,7 @@ import SectionHeading from '../SectionHeading';
 const Marquee = dynamic(() => import('react-fast-marquee'), { ssr: false });
 
 const brandLogos = [
-  { name: 'Essilor', src: '/logos/essilor.svg' },
+  { name: 'EssilorLuxottica', src: '/logos/essilor.svg' },
   { name: 'Hoya', src: '/logos/hoya.svg' },
   { name: 'Zeiss', src: '/logos/zeiss.svg' },
   { name: 'Ray-Ban', src: '/logos/rayban.svg' },
@@ -14,10 +14,12 @@ const brandLogos = [
   { name: 'Vogue', src: '/logos/vogue.svg' },
   { name: 'IDEE', src: '/logos/idee.svg' },
   { name: 'Ralph Lauren', src: '/logos/ralph_lauren.svg' },
+  { name: 'Polo Ralph Lauren', src: '/logos/polo_ralph_lauren.svg' },
   { name: 'Brooks Brothers', src: '/logos/brooks_brothers.svg' },
   { name: 'Coach', src: '/logos/coach.svg' },
   { name: 'Tommy Hilfiger', src: '/logos/tommy_hilfiger.svg' },
   { name: 'Emporio Armani', src: '/logos/armani.svg' },
+  { name: 'Fastrack', src: '/logos/fastrack.svg' },
 ];
 
 export default function BrandMarquee() {

@@ -14,7 +14,7 @@ const links = [
   { href: '/frames', label: 'Frames' },
   { href: '/meta-ai-glasses', label: 'Meta AI' },
   { href: '/contact-lenses', label: 'Contact Lenses' },
-  { href: '/kids-vision', label: 'Kids Vision' },
+  { href: '/kids-vision', label: "Children's Vision" },
   { href: '/brands', label: 'Brands' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
@@ -144,7 +144,7 @@ export default function Nav() {
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Hours</p>
-                  <p className="mt-2 text-ink/90">11:00 AM – 9:00 PM (Every day)</p>
+                  <p className="mt-2 text-ink/90">11:00 AM - 9:00 PM (Every day)</p>
                 </div>
                 <div>
                   <p className="uppercase tracking-widest text-xs text-ink/55">Contact</p>

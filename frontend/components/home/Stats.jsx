@@ -25,9 +25,9 @@ function Counter({ to, suffix = '', duration = 2 }) {
 
 const stats = [
   { value: 15, suffix: '+', label: 'Years of Optical Expertise' },
-  { value: 25000, suffix: '+', label: 'Happy Customers Served' },
+  { value: 2500, suffix: '+', label: 'Happy Customers' },
   { value: 40, suffix: '+', label: 'Premium Brands Curated' },
-  { value: 50000, suffix: '+', label: 'Precise Eye Tests Done' },
+  { value: 5000, suffix: '+', label: 'Eye Testing' },
 ];
 
 export default function Stats() {

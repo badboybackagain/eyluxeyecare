@@ -5,14 +5,13 @@ import SectionHeading from '../SectionHeading';
 import Link from 'next/link';
 
 const services = [
-  { icon: ScanEye, title: 'Digital Eye Testing', desc: 'State-of-the-art computerized refraction and retinal screening for accuracy you can trust.', href: '/eye-testing' },
-  { icon: Eye, title: 'Progressive Lenses', desc: 'Seamless near, intermediate and far vision in a single lens - by Essilor, Hoya & Zeiss.', href: '/lenses' },
-  { icon: Sparkles, title: 'Contact Lenses', desc: 'Premium daily, monthly and toric lenses fitted by certified specialists.', href: '/contact-lenses' },
-  { icon: Baby, title: 'Kids Vision Care', desc: 'Gentle paediatric assessments and durable frames designed for tiny faces.', href: '/kids-vision' },
-  { icon: Monitor, title: 'Computer Glasses', desc: 'Blue-cut and anti-fatigue lenses crafted for IT professionals and students.', href: '/lenses' },
-  { icon: Sun, title: 'Designer Sunglasses', desc: 'UV-protective sunglasses from the world\'s most coveted fashion houses.', href: '/frames' },
-  { icon: Glasses, title: 'Prescription Frames', desc: 'A curated catalog of luxury and contemporary frames in every silhouette.', href: '/frames' },
-  { icon: Heart, title: 'Fashion Eyewear', desc: 'Style-led consultations pairing your face structure with the right silhouette.', href: '/frames' },
+  { icon: ScanEye, title: 'Digital Eye Testing', desc: 'State-of-the-art computerized refraction and comprehensive vision diagnostics for accuracy you can trust.', href: '/eye-testing' },
+  { icon: Eye, title: 'Progressive Lenses', desc: 'Seamless near, intermediate and far vision in a single lens - by EssilorLuxottica, Hoya & Zeiss.', href: '/lenses' },
+  { icon: Sparkles, title: 'Contact Lenses', desc: 'Premium daily, monthly and toric lenses fitted by certified optical specialists.', href: '/contact-lenses' },
+  { icon: Baby, title: 'Children\'s Vision Solutions', desc: 'Specialized pediatric vision care and Myopia management to protect your child\'s long-term eye health.', href: '/kids-vision' },
+  { icon: Monitor, title: 'Advance Single Vision Lenses', desc: 'Lenses tailored for digitally connected lifestyles, providing blue-light filtration and fatigue relief.', href: '/lenses' },
+  { icon: Glasses, title: 'Luxury Eyewear Collection', desc: 'Curated frames and sunglasses from Ray-Ban, Oakley, Vogue, Coach, Tommy Hilfiger, Ralph Lauren, and more.', href: '/frames' },
+  { icon: Heart, title: 'Advance Optical Solutions', desc: 'From personalized single vision to progressive lenses, combining advanced technology with expert dispensing.', href: '/lenses' },
 ];
 
 export default function Services() {

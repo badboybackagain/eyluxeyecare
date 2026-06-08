@@ -1,16 +1,15 @@
 import PageHero from '../../components/PageHero';
 import SectionHeading from '../../components/SectionHeading';
 import FinalCTA from '../../components/home/FinalCTA';
-import { ScanEye, Brain, Activity, Baby, Layers, Eye } from 'lucide-react';
+import { ScanEye, Brain, Activity, Baby, Eye } from 'lucide-react';
 
 export const metadata = {
   title: 'Digital Eye Testing in Hadapsar - Precision Vision Diagnostics',
-  description: 'Comprehensive computerized eye testing in Hadapsar, Pune. Refraction, retinal screening, kids eye tests and progressive lens consultations at Eylux Eye Care.',
+  description: 'Comprehensive computerized eye testing in Hadapsar, Pune. Precision refraction, pediatric testing and progressive lens consultations at Eylux Eye Care.',
 };
 
 const tests = [
-  { icon: ScanEye, title: 'Computerized refraction', desc: 'Auto-refractometer readings accurate to 0.25 dioptre, refined by manual phoropter verification.' },
-  { icon: Layers, title: 'Retinal screening', desc: 'Fundus imaging to detect early signs of diabetic retinopathy, hypertensive changes and macular health.' },
+  { icon: ScanEye, title: 'Computerized refraction', desc: 'Auto-refractometer readings accurate to 0.25 dioptre, refined by manual refinement verification.' },
   { icon: Activity, title: 'Slit-lamp examination', desc: 'High-magnification assessment of cornea, conjunctiva, iris and lens for clinical-grade ocular health.' },
   { icon: Brain, title: 'Binocular vision check', desc: 'Coordination, focusing and eye-muscle balance - essential for IT professionals and avid readers.' },
   { icon: Baby, title: 'Paediatric assessment', desc: 'Child-friendly testing using picture optotypes, retinoscopy and cycloplegic refraction when needed.' },
@@ -20,7 +19,7 @@ const tests = [
 const flow = [
   { step: '01', title: 'Welcome & lifestyle conversation' },
   { step: '02', title: 'Auto-refraction & visual acuity' },
-  { step: '03', title: 'Manual refinement with phoropter' },
+  { step: '03', title: 'Manual refraction refinement' },
   { step: '04', title: 'Binocular balance & near vision' },
   { step: '05', title: 'Ocular health screening' },
   { step: '06', title: 'Lens & frame recommendation' },

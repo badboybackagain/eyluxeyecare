@@ -31,10 +31,10 @@ export default function Footer() {
                 ['About', '/about'],
                 ['Eye Testing', '/eye-testing'],
                 ['Lenses', '/lenses'],
-                ['Frames & Sunglasses', '/frames'],
+                ['Luxury Eyewear Collection', '/frames'],
                 ['Meta AI Glasses', '/meta-ai-glasses'],
                 ['Contact Lenses', '/contact-lenses'],
-                ['Kids Vision Care', '/kids-vision'],
+                ["Children's Vision Solutions", '/kids-vision'],
                 ['Brands', '/brands'],
                 ['Blog', '/blog'],
                 ['Contact', '/contact'],
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
             <div className="flex items-start gap-3 text-sm text-cream/70">
               <Clock className="h-4 w-4 mt-0.5 text-gold" />
-              <p>11:00 AM – 9:00 PM (Every day)</p>
+              <p>11:00 AM - 9:00 PM (Every day)</p>
             </div>
             <div className="flex items-center gap-3 pt-4">
               <a href="#" aria-label="Instagram" className="p-2.5 rounded-full border border-cream/15 bg-cream/5 hover:border-gold/50 hover:bg-gold/10 text-cream transition">

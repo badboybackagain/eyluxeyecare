@@ -4,17 +4,17 @@ import FinalCTA from '../../components/home/FinalCTA';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'About — A Boutique Optical Story in Hadapsar, Pune',
+  title: 'About - A Boutique Optical Story in Hadapsar, Pune',
   description: 'Eylux Eye Care is a premium optical boutique in Hadapsar, Pune. Discover our story, our values and the people behind the precision.',
 };
 
 const milestones = [
   { year: '2010', title: 'A boutique begins', text: 'A small family-run optical opens its doors in Hadapsar, with a single chair and an obsession for accuracy.' },
-  { year: '2014', title: 'Premium partnerships', text: 'Authorized partnerships with Essilor, Hoya and Zeiss establish Eylux as the city\'s reference for progressive lenses.' },
-  { year: '2018', title: 'Designer wall', text: 'A curated luxury collection arrives — Ray-Ban, Oakley, Ralph Lauren, Coach, Tommy Hilfiger and Emporio Armani.' },
-  { year: '2022', title: 'Paediatric care', text: 'A dedicated kids vision suite opens, gentle and play-friendly.' },
+  { year: '2014', title: 'Premium partnerships', text: 'Authorized partnerships with EssilorLuxottica, Hoya and Zeiss establish Eylux as the city\'s reference for progressive lenses.' },
+  { year: '2018', title: 'Designer wall', text: 'A curated luxury collection arrives - Ray-Ban, Oakley, Ralph Lauren, Coach, Tommy Hilfiger and Emporio Armani.' },
+  { year: '2022', title: 'Paediatric care', text: 'A dedicated children\'s vision suite opens, gentle and play-friendly.' },
   { year: '2024', title: 'Smart eyewear era', text: 'Eylux becomes one of Pune\'s earliest stockists of Ray-Ban and Oakley Meta AI smart glasses.' },
-  { year: '2025', title: 'The new boutique', text: 'A redesigned flagship — marble, velvet and warm gold — opens in Keshav Nagar.' },
+  { year: '2025', title: 'The new boutique', text: 'A redesigned flagship - marble, velvet and warm gold - opens in Keshav Nagar.' },
 ];
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Eylux"
         title={<>An obsession with <span className="gold-text">clarity</span>, since 2010.</>}
-        subtitle="What started as a neighbourhood optical has grown into Hadapsar's most trusted vision boutique — where world-class eyewear meets unhurried, personal care."
+        subtitle="What started as a neighbourhood optical has grown into Hadapsar's most trusted vision boutique - where world-class eyewear meets unhurried, personal care."
         image="https://images.unsplash.com/photo-1778731525581-9cff0deca568?crop=entropy&cs=srgb&fm=jpg&w=1800&q=85"
       />
 
@@ -33,9 +33,9 @@ export default function AboutPage() {
             <SectionHeading eyebrow="Our philosophy" title={<>Eyewear is <span className="gold-text">personal</span>, never transactional.</>} />
           </div>
           <div className="lg:col-span-7 space-y-6 text-ink/75 text-base md:text-lg leading-relaxed">
-            <p>We believe a pair of glasses is the most intimate accessory you wear — closer to you than any other object, all day, every day. So we treat them with the seriousness they deserve.</p>
+            <p>We believe a pair of glasses is the most intimate accessory you wear - closer to you than any other object, all day, every day. So we treat them with the seriousness they deserve.</p>
             <p>Every Eylux consultation begins with a conversation. About your work, your screens, your hobbies, the way light falls on your face. Only then do we measure, advise and craft.</p>
-            <p>The result is eyewear that feels like it belongs to you — clinically precise, fashion-forward and quietly luxurious.</p>
+            <p>The result is eyewear that feels like it belongs to you - clinically precise, fashion-forward and quietly luxurious.</p>
           </div>
         </div>
       </section>

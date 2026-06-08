@@ -4,11 +4,14 @@ import FinalCTA from '../../components/home/FinalCTA';
 
 export const metadata = {
   title: 'Premium Eyewear Brands at Eylux - Hadapsar, Pune',
-  description: 'Authorized stockist of Ray-Ban, Oakley, Vogue, Coach, Tommy Hilfiger, Emporio Armani, Ralph Lauren, IDEE, Essilor, Hoya and Zeiss in Hadapsar, Pune.',
+  description: 'Authorized stockist of Ray-Ban, Oakley, Vogue, Coach, Tommy Hilfiger, Emporio Armani, Polo Ralph Lauren, Ralph Lauren, Brooks Brothers, IDEE, Fastrack, EssilorLuxottica, Hoya and Zeiss in Hadapsar, Pune.',
 };
 
-const lenses = ['Essilor', 'Hoya', 'Zeiss'];
-const frames = ['Ray-Ban', 'Oakley', 'Vogue', 'Coach', 'Emporio Armani', 'Ralph Lauren', 'Brooks Brothers', 'Tommy Hilfiger', 'IDEE'];
+const lenses = ['EssilorLuxottica', 'Hoya', 'Zeiss'];
+const frames = [
+  'Ray-Ban', 'Oakley', 'Vogue', 'Emporio Armani', 'Tommy Hilfiger', 
+  'Coach', 'Brooks Brothers', 'Polo Ralph Lauren', 'Ralph Lauren', 'IDEE', 'Fastrack'
+];
 const smart = ['Ray-Ban Meta', 'Oakley Meta HSTN'];
 
 function BrandCard({ name, group }) {
@@ -16,7 +19,7 @@ function BrandCard({ name, group }) {
     <div className="group relative rounded-3xl glass aspect-[5/3] flex items-center justify-center overflow-hidden hover:border-gold/40 transition-all duration-500" data-testid={`brand-card-${name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
       <div className="absolute inset-0 bg-gradient-to-br from-gold/0 via-transparent to-gold/0 group-hover:from-gold/10 group-hover:to-transparent transition-all duration-700" />
       <div className="relative text-center px-4">
-        <p className="font-display text-3xl md:text-4xl tracking-tight text-ink/85 group-hover:gold-text transition">{name}</p>
+        <p className="font-display text-xl sm:text-2xl md:text-3xl tracking-tight text-ink/85 group-hover:gold-text transition">{name}</p>
         <p className="mt-2 text-[10px] uppercase tracking-[0.35em] text-ink/45">{group}</p>
       </div>
     </div>
@@ -43,7 +46,7 @@ export default function BrandsPage() {
           </div>
 
           <div>
-            <SectionHeading eyebrow="Frames & sunglasses" title={<>Designer <span className="gold-text">eyewear houses.</span></>} />
+            <SectionHeading eyebrow="Luxury Eyewear Collection" title={<>Designer <span className="gold-text">eyewear houses.</span></>} />
             <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
               {frames.map((b) => <BrandCard key={b} name={b} group="Frames & Sun" />)}
             </div>

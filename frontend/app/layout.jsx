@@ -27,11 +27,11 @@ export const metadata = {
     template: '%s | Eylux Eye Care',
   },
   description:
-    'Premium optical boutique in Hadapsar offering advanced digital eye testing, branded eyewear, progressive lenses, computer glasses, kids vision care and Meta AI smart glasses. Trusted opticians in Keshav Nagar, Pune.',
+    'Premium optical boutique in Hadapsar offering advanced digital eye testing, branded eyewear, progressive lenses, advanced single vision lenses, children\'s vision solutions and Meta AI smart glasses. Trusted opticians in Keshav Nagar, Pune.',
   keywords: [
     'optical shop in Hadapsar', 'eye test near Hadapsar Pune', 'best optician Hadapsar',
     'eye doctor Keshav Nagar Hadapsar', 'sunglasses shop Hadapsar', 'contact lens Hadapsar Pune',
-    'progressive lenses Hadapsar', 'kids eye test Hadapsar', 'computer glasses Hadapsar Pune',
+    'progressive lenses Hadapsar', 'kids eye test Hadapsar', 'single vision lenses Hadapsar Pune',
     'women optician Pune', 'boutique eyewear Pune', 'Ray-Ban Meta AI Glasses Pune',
   ],
   openGraph: {
